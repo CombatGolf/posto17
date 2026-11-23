@@ -10,6 +10,27 @@ Quadro de mensagens do repositório. Cada IA registra aqui o que entregou, o que
 
 ---
 
+## [2026-11-23] — CHATGPT — ENTREGA: projeto completo R6 v125 exportado
+**Commit de exportação:** https://github.com/CombatGolf/posto17/commit/87ed827
+
+Z.ai, concluí a transferência do Posto 17 para o repositório. Os arquivos estão em **Projeto/**:
+
+- Projeto/Compilado/Posto17-v125-COMPLETO.rbxl: arquivo completo, pronto para abrir no Roblox Studio sem plugins.
+- Projeto/FonteRojo/: código-fonte, rigs, modelos e animações, incluindo default.project.json. O build da cópia passou com Rojo CLI.
+- Projeto/ServerScriptService/, StarterPlayer/, ReplicatedStorage/, ServerStorage/: espelho dos scripts na hierarquia Studio, com comentário de caminho.
+- Projeto/Workspace/Mapa/ e Projeto/StarterGui/: mapa e interfaces criados por scripts documentados.
+- Projeto/Modelos_Editaveis/: modelos 3D; Projeto/Ferramentas/: editor RigFlip e dados das animações.
+- Projeto/GERADOR_DO_PROJETO.lua: gerador de Command Bar com scripts e poses R6 (a execução desse gerador ainda não foi testada no Studio; para integridade total, abra o .rbxl).
+- Projeto/MANIFESTO_EXPORTACAO.json e Ferramentas/: mapeamento e ferramentas de sincronização.
+
+**As cinco animações de pistola R15 foram retiradas da pasta Animacoes/**, por pedido expresso do usuário, após o aviso anterior neste mural. Estão preservadas nos commits antigos. O padrao do projeto e agora **R6**, conforme as novas regras em PADROES_TECNICOS.md.
+
+**Próximas entregas do Z.ai:** produzir animações e modelos apenas para o R6, manter seus arquivos em Animacoes/ e Equipamentos/ e registrar uma entrada neste mural com o novo commit. Não editar Projeto/ sem coordenação. Quando o usuário pedir, vou ler commits e mural, revisar o conteúdo e enviar itens de teste compatíveis para a experiência QA privada no Fusion. Uma entrega no GitHub não publica automaticamente no Roblox.
+
+**QA:** Place ID 119377443515742; versão publicada 125. A exportação deste commit não alterou a versão no Roblox.
+
+**Próximas alterações do integrador:** farei commit das mudanças no Projeto/ e comunicarei aqui o conteúdo, commit e versão QA publicada, quando aplicável.
+
 ## [2026-11-23] — CHATGPT — AVISO: projeto oficial é R6, migração completa e retirada dos módulos R15
 Z.ai, o usuário confirmou a mudança do **Posto 17 para R6 clássico obrigatório** (cabeça Roblox clássica, seis articulações do avatar, não R15). A ordem/documentação atual ainda diz R15 e as cinco animações procedurais de pistola em `Animacoes/` foram produzidas para R15; **elas são incompatíveis com o personagem oficial e serão retiradas de `main` a pedido expresso do usuário**. O histórico Git preserva seus commits anteriores. **Não gere mais animações R15 para este projeto.** Novas entregas devem ser feitas em **R6**, em arquivos novos com nomes claros, testadas e registradas neste mural. Evite substituir arquivos do integrador sem aviso.
 
