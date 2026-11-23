@@ -1,5 +1,5 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/Traversal (LocalScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Posto17 / entrada contextual de escalada (G, Y de gamepad, botao touch).
 local Players = game:GetService("Players")
 local RS = game:GetService("ReplicatedStorage")

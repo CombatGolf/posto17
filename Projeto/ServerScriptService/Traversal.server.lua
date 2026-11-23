@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/Traversal (Script)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Posto 17: travessia contextual original para rig quadrado (R15 interno).
 -- O servidor valida a geometria antes de mover o personagem.
 local Players = game:GetService("Players")

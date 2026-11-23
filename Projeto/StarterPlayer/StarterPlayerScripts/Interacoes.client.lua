@@ -1,5 +1,5 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/Interacoes (LocalScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- POSTO 17 | instinto branco + interacoes contextuais.
 -- Q segurado: contorno atraves de paredes em ate 8,4 metros (30 studs).
 -- Normal: contorno branco e tecla E somente no alcance da interacao.

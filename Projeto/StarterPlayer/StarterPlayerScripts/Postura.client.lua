@@ -1,5 +1,5 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/Postura (LocalScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")

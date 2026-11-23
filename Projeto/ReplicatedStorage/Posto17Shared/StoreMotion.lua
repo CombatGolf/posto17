@@ -1,5 +1,5 @@
 -- Local no Studio: ReplicatedStorage/Posto17Shared/StoreMotion (ModuleScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Reproduz os keyframes originais da Store no boneco ancorado do Viewport.
 local Motion = {}
 local cache = setmetatable({}, {__mode = "k"})

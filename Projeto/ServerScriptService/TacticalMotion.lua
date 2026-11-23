@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/TacticalMotion (ModuleScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 local Motion = {}
 local cues = setmetatable({}, {__mode = "k"})
 

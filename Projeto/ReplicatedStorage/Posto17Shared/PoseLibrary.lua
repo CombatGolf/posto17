@@ -1,5 +1,5 @@
 -- Local no Studio: ReplicatedStorage/Posto17Shared/PoseLibrary (ModuleScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Posto 17: biblioteca de poses humanas procedurais (R15/AJU e R6).
 -- Os valores sao offsets relativos ao Transform do Animator, nao movimentos
 -- de HumanoidRootPart. Nao teleporta o personagem nem simula pulo.

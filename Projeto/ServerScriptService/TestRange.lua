@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/TestRange (ModuleScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Posto 17: area de ensaio permanente, isolada da missao.
 -- Somente no Studio ou no Place de testes. A experiencia original nao muda.
 local TestRange = {}

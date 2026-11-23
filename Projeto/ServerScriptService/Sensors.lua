@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/Sensors (ModuleScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Sensores de audio locais: apenas fontes audiveis sem dar identidade do agente.
 -- Microfones associados as cameras complementam o sensor de corredor.
 local Sensors = {}

@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/GuardOperations (ModuleScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Neutralizacao e corpos. Nenhum cliente escolhe vida, posicao ou duracao.
 local Rules = require(game:GetService("ReplicatedStorage").Posto17Shared.Rules)
 local Ops = {}

@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/Ducts (ModuleScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Rotas retas no interior de dutos elevados. O servidor controla as entradas,
 -- as saidas e o estado de postura. Dentro do duto, o jogador anda normalmente.
 local Ducts = {}

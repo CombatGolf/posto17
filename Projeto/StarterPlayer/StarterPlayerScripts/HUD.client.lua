@@ -1,5 +1,5 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/HUD (LocalScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- POSTO 17 // HUD tatico v2 (mobile e desktop).
 -- Referencia aprovada: texto pequeno no canto, alerta apenas quando necessario.
 -- Controles, eventos, pontuacao e missao da v0.9 preservados.

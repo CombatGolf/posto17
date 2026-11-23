@@ -1,5 +1,5 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/Guia (LocalScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- POSTO 17 // marcador tatico de objetivo e ajuda contextual (HUD v2).
 -- Nenhuma bussola fixa. Segurar Q mostra waypoint na cena.
 local Theme = require(game:GetService("ReplicatedStorage"):WaitForChild("Posto17Shared"):WaitForChild("HudTheme"))

@@ -1,5 +1,5 @@
 -- Local no Studio: ReplicatedStorage/Posto17Shared/HudTheme (ModuleScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 local function rgb(r, g, b)
     return Color3.fromRGB(r, g, b)
 end

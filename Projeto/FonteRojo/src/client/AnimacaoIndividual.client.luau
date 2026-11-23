@@ -1,6 +1,11 @@
+-- Local no Studio: StarterPlayer/StarterPlayerScripts/AnimacaoIndividual (LocalScript)
+-- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
 -- Posto 17: bancada independente para visualizar UMA animacao R6 de cada vez.
 -- Inclui 47 sequencias corporais e 26 sequencias com os modelos originais.
 -- Previa local sem alterar o Humanoid do jogador ou o jogo principal.
+-- v126 (Z.ai): giro de mao do fuzil condicional ao tipo — o modelo de origem
+-- FAL_Militar aponta para -Z, diferente da pistola e da submetralhadora (+Z);
+-- sem o ajuste, o fuzil saqueia/guarda invertido, com o cano para o ombro.
 local Players=game:GetService("Players")
 local RS=game:GetService("ReplicatedStorage")
 local RunService=game:GetService("RunService")
@@ -356,8 +361,13 @@ local function updateModels()
                 if name:find("guardar",1,true) then active=progress<=.46 end
                 if active then
                     local rightArm=bodyParts["Right Arm"]
+                    -- A pistola e a submetralhadora apontam para +Z no
+                    -- modelo de origem; o fuzil (FAL_Militar) aponta para
+                    -- -Z. Sem este ajuste o fuzil sai invertido na mao,
+                    -- com o cano voltado para o ombro em vez da frente.
+                    local giro=(kind=="fuzil") and 0 or math.pi
                     mount=rightArm.CFrame*CFrame.new(0,-1.06,-.22)
-                        * CFrame.Angles(math.rad(-90),math.pi,0)
+                        * CFrame.Angles(math.rad(-90),giro,0)
                 end
             end
             model:PivotTo(mount)

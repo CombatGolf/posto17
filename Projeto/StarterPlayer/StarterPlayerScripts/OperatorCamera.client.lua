@@ -1,5 +1,5 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/OperatorCamera (LocalScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Camera P17: usa o camera module nativo para mouse, toque e gamepad.
 -- Apenas suaviza offset/FOV e oculta a cabeca customizada de perto.
 local Players = game:GetService("Players")

@@ -1,5 +1,5 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/R6Frames (ModuleScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Posto 17 | Reprodutor de movimento R6
 -- Le as KeyframeSequences limpas e aciona movimentos reais do personagem.
 -- Sem assets externos, sem animacoes de objetos/armas; R15 permanece com o controlador antigo.

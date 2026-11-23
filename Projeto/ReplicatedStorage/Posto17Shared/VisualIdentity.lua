@@ -1,5 +1,5 @@
 -- Local no Studio: ReplicatedStorage/Posto17Shared/VisualIdentity (ModuleScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Linguagem visual oficial do Posto 17; valores compartilhados.
 -- Vermelho sinaliza interacao critica, nunca e cor de preenchimento.
 local function rgb(r,g,b)

@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/P17CosmeticModels (Script)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Modelos low-poly visuais no personagem R6 do Posto 17.
 -- Peças sem colisão e sem alterar as mecânicas existentes.
 local Players=game:GetService("Players")

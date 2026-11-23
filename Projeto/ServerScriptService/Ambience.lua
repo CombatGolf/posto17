@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/Ambience (ModuleScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Geometria original, sem malhas/texturas baixadas; decoracoes nao bloqueiam IA.
 local Ambience = {}
 function Ambience.build(ctx)

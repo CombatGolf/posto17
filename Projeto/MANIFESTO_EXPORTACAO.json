@@ -1,7 +1,7 @@
 {
   "rig": "R6",
   "place_id_qa": 119377443515742,
-  "base_version": 125,
+  "base_version": 126,
   "scripts": [
     {
       "source": "src/server/Ambience.luau",

@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/VisualShowcase (ModuleScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- P17 Visual Showcase: laboratorio de arte isolado da missao e da pista de animacao.
 -- Criado somente para a experiencia de testes. Geometria low-poly original.
 local VisualShowcase = {}

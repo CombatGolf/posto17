@@ -1,5 +1,5 @@
 -- Local no Studio: ReplicatedStorage/Posto17Shared/Posto17ShowcaseIndex (ModuleScript)
--- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
 -- Lista de todas as animacoes disponiveis na bancada R6 (47 + 26)
 return {
     {id="P17_Corpo_001", name="Run", category="Movimento", model=""},
