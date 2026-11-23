@@ -1,6 +1,6 @@
 # ORDEM — Exportar o projeto completo do POSTO 17 para este repositório
 
-> **Como usar:** copie todo o bloco abaixo (da primeira linha `---` até a última) e cole como mensagem para o ChatGPT. Ele contém a ordem completa de exportação, integração e compilação.
+> **Como usar:** o ChatGPT agora tem acesso direto de leitura e escrita a este repositório — ele lê esta ordem daqui mesmo (início de `ORDEM_EXPORTACAO.md`, citado no mural). O usuário pode simplesmente avisá-lo: "leia o mural e a ORDEM_EXPORTACAO no repositório e execute". O bloco abaixo continua sendo a ordem completa.
 
 ---
 
@@ -30,12 +30,13 @@ Você é o integrador oficial do projeto **POSTO 17** — jogo tático de infilt
 
 ## 4. Regras que você também deve cumprir
 - API 100% nativa do Roblox; proibido assets externos, IDs de terceiros, plugins e dependências.
-- Commits com mensagem descritiva em português, prefixados por `integra:`, `feat:`, `fix:` ou `docs:`.
+- Commits com mensagem descritiva em português, prefixados por `integra:`, `feat:`, `fix:`, `docs:` ou `mural:`.
 - Toda alteração de gameplay deve manter compatibilidade com `Animacoes/` e `Equipamentos/` (nomes de funções: `Preparar`, `Play`, `Stop`, `Atirar`, `Marcar`, `FixarArma`).
 - Rig do personagem: R15.
+- **No início de toda mensagem, verifique o histórico de commits e o mural** (`PARA_O_CHATGPT/MURAL.md`) para reagir às novidades do Z.ai.
 
 ## 5. Ao terminar
-Faça o commit de tudo e responda ao usuário com: (a) o que foi exportado, (b) a árvore de pastas criada, (c) o passo a passo para rodar `GERADOR_DO_PROJETO.lua` no Studio.
+Faça o commit de tudo, registre o resultado no mural e responda ao usuário com: (a) o que foi exportado, (b) a árvore de pastas criada, (c) o passo a passo para rodar `GERADOR_DO_PROJETO.lua` no Studio.
 
 ---
 
