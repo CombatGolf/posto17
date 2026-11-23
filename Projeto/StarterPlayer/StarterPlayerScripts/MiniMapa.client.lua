@@ -1,5 +1,5 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/MiniMapa (LocalScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 -- POSTO 17 // minimapa quadrado minimo v2.
 -- Mesmo lugar (canto inferior direito), mais transparente e sem dashboard.
 -- Os marcadores de objetivos so aparecem a curta distancia.

@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/Posto17 (Script)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 -- Posto 17: protótipo de infiltração, mapa gerado em tempo de execução.
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")

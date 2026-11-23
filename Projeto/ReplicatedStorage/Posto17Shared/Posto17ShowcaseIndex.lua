@@ -1,6 +1,6 @@
 -- Local no Studio: ReplicatedStorage/Posto17Shared/Posto17ShowcaseIndex (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
--- Lista de todas as animacoes disponiveis na bancada R6 (47 + 26)
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
+-- Bancada R6: 47 corporais + 26 equipamentos + 16 interacoes (89)
 return {
     {id="P17_Corpo_001", name="Run", category="Movimento", model=""},
     {id="P17_Corpo_002", name="Pistola_Mira_Deitado", category="Movimento", model=""},
@@ -75,4 +75,20 @@ return {
     {id="P17_W_Fuzil_Guardar_Costas", name="Fuzil Guardar Costas", category="fuzil", model="fuzil"},
     {id="P17_W_Fuzil_Mira_Andando", name="Fuzil Mira Andando", category="fuzil", model="fuzil"},
     {id="P17_W_Fuzil_Mira_Agachado", name="Fuzil Mira Agachado", category="fuzil", model="fuzil"},
+    {id="P17_I_porta", name="Abrir porta", category="Interacao", model=""},
+    {id="P17_I_armario", name="Deslizar armario", category="Interacao", model=""},
+    {id="P17_I_terminal", name="Operar terminal", category="Interacao", model=""},
+    {id="P17_I_botao", name="Pressionar botao", category="Interacao", model=""},
+    {id="P17_I_chave", name="Girar chave", category="Interacao", model=""},
+    {id="P17_I_luz", name="Acionar luz", category="Interacao", model=""},
+    {id="P17_I_caixa", name="Mover caixa", category="Interacao", model=""},
+    {id="P17_I_mesa", name="Inspecionar mesa", category="Interacao", model=""},
+    {id="P17_I_duto", name="Entrar no duto", category="Interacao", model=""},
+    {id="P17_I_escada", name="Escalar plataforma", category="Interacao", model=""},
+    {id="P17_I_barreira", name="Transpor barreira", category="Interacao", model=""},
+    {id="P17_I_cobertura", name="Entrar na cobertura", category="Interacao", model=""},
+    {id="P17_I_cama", name="Deitar na cama", category="Interacao", model=""},
+    {id="P17_I_inspecao", name="Inspecionar objeto", category="Interacao", model=""},
+    {id="P17_I_painel", name="Reconfigurar painel", category="Interacao", model=""},
+    {id="P17_I_alvo", name="Sinalizar painel", category="Interacao", model=""},
 }

@@ -1,5 +1,5 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/WorldMotion (LocalScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 -- Animacoes de equipamentos do posto. Visual local sem lag de rede,
 -- com pausa durante sabotagem da rede eletrica.
 local RunService = game:GetService("RunService")

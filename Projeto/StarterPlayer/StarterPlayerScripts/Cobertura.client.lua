@@ -1,5 +1,5 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/Cobertura (LocalScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 -- POSTO 17 // cobertura de parede e camera cinematografica leve.
 -- Segurar movimento junto a parede desloca paralelo a ela; no fim,
 -- a camera faz um peek sem atravessar o obstaculo.

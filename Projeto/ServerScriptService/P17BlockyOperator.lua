@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/P17BlockyOperator (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 -- Posto 17: reconstrução leve, por partes, da silhueta original do Blockbench.
 -- O R15 permanece como rig, colisão e ponto de integração com os sistemas legados.
 local Operator = {}

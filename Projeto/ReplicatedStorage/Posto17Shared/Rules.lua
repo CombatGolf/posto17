@@ -1,5 +1,5 @@
 -- Local no Studio: ReplicatedStorage/Posto17Shared/Rules (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 -- Regras puras: o servidor decide; o cliente apenas apresenta as opcoes.
 local Rules = {}
 Rules.KO_SECONDS = 60

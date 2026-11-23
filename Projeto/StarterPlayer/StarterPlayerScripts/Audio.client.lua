@@ -1,5 +1,5 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/Audio (LocalScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 -- Mixagem local leve. Apenas sons internos do Roblox; nenhum asset externo.
 local Players = game:GetService("Players")
 local SoundService = game:GetService("SoundService")

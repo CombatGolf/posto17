@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/GuardVisuals (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 -- Guarda low-poly com geometria original; sem animacoes pagas nem Humanoids extras.
 -- So as hitboxes existentes colidem; roupa/ossos usam CFrame em lote (8 Hz).
 local Visuals = {}

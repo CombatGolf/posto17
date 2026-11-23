@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/WorldDetail (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 -- Posto 17: ambiente industrial narrativo em pecas 3D originais.
 -- Sem MeshIds ou assets externos. Objetivos e rotas da missao sao preservados.
 local WorldDetail = {}

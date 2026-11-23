@@ -1,7 +1,7 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/AnimacaoIndividual (LocalScript)
 -- Fonte sincronizada do Posto17 v125; preserva o nome Rojo (.client/.server).
 -- Posto 17: bancada independente para visualizar UMA animacao R6 de cada vez.
--- Inclui 47 sequencias corporais e 26 sequencias com os modelos originais.
+-- Inclui 47 corporais, 26 com equipamentos e 16 interacoes R6 novas.
 -- Previa local sem alterar o Humanoid do jogador ou o jogo principal.
 -- v126 (Z.ai): giro de mao do fuzil condicional ao tipo — o modelo de origem
 -- FAL_Militar aponta para -Z, diferente da pistola e da submetralhadora (+Z);
@@ -15,6 +15,7 @@ local catalog=require(shared:WaitForChild("Posto17ShowcaseIndex"))
 local Models=require(shared:WaitForChild("Posto17Modelos"))
 local bodies=shared:WaitForChild("Posto17R6Corpo")
 local weapons=shared:WaitForChild("Posto17R6Amostras")
+local interactions=shared:WaitForChild("Posto17R6Interacoes")
 local avatar=shared:WaitForChild("Posto17R6Preview")
 local gui=Instance.new("ScreenGui")
 gui.Name="P17AnimacaoIndividual"
@@ -55,7 +56,7 @@ local function button(parent,name,value,position,size,color)
     })
 end
 
-local launch=button(gui,"AbrirBancada","ANIMACOES  73",
+local launch=button(gui,"AbrirBancada","ANIMACOES  89",
     UDim2.new(1,-201,0,105),UDim2.fromOffset(172,43),RED)
 local root=create("Frame",gui,{
     Name="BancadaR6",Visible=false,
@@ -63,7 +64,7 @@ local root=create("Frame",gui,{
     BackgroundColor3=DARK,BorderSizePixel=0
 })
 create("UIStroke",root,{Color=RED,Thickness=2})
-local heading=text(root,"Titulo","POSTO 17 / BANCADA R6   •   73 SEQUENCIAS",
+local heading=text(root,"Titulo","POSTO 17 / BANCADA R6   •   89 SEQUENCIAS",
     UDim2.new(.02,0,0,5),UDim2.new(.78,0,0,40),17)
 local close=button(root,"Fechar","FECHAR",
     UDim2.new(1,-108,0,7),UDim2.fromOffset(93,34),RED)
@@ -85,13 +86,13 @@ local filters=create("Frame",sidebar,{
 })
 local filterOptions={
     {"Todas","all"},{"Corpo","Movimento"},{"Pistola","pistola"},
-    {"Sub","submetralhadora"},{"Fuzil","fuzil"}
+    {"Sub","submetralhadora"},{"Fuzil","fuzil"},{"Interacoes","Interacao"}
 }
 local filterBtns={}
 local selectedCategory="all"
 for i,opt in ipairs(filterOptions) do
-    local item=button(filters,"Filtro"..i,opt[1],UDim2.new((i-1)/5,2,0,1),
-        UDim2.new(.2,-4,1,-2),i==1 and RED or SURFACE)
+    local item=button(filters,"Filtro"..i,opt[1],UDim2.new((i-1)/6,2,0,1),
+        UDim2.new(1/6,-4,1,-2),i==1 and RED or SURFACE)
     item.TextSize=11
     filterBtns[i]=item
 end
@@ -226,7 +227,8 @@ end
 local clipCache={}
 local function readClip(row)
     if clipCache[row.id] then return clipCache[row.id] end
-    local parent=row.category=="Movimento" and bodies or weapons
+    local parent=row.category=="Movimento" and bodies
+        or (row.category=="Interacao" and interactions or weapons)
     local seq=parent:FindFirstChild(row.id,true)
     if not seq or not seq:IsA("KeyframeSequence") then
         warn("[P17 Bancada] Sem animacao: ",row.id)
@@ -280,7 +282,7 @@ for i,row in ipairs(catalog) do
         button=item,index=i})
     item.Activated:Connect(function()choose(i)end)
 end
-assert(#records==73,"A lista da bancada deve conter 73 clipes")
+assert(#records==89,"A lista da bancada deve conter 89 clipes")
 for i,opt in ipairs(filterOptions) do
     filterBtns[i].Activated:Connect(function()
         selectedCategory=opt[2]
@@ -392,6 +394,22 @@ local function openPanel(value)
 end
 launch.Activated:Connect(function()openPanel(true)end)
 close.Activated:Connect(function()openPanel(false)end)
+-- Totens fisicos do novo Laboratorio R6. Cada um chama seu proprio clipe.
+task.spawn(function()
+    local labEvent=RS:WaitForChild("P17LabAction",25)
+    if not labEvent then return end
+    labEvent.OnClientEvent:Connect(function(action,id)
+        if action~="clip" or typeof(id)~="string" then return end
+        for idx,entry in ipairs(records) do
+            if entry.id==id then
+                choose(idx)
+                openPanel(true)
+                return
+            end
+        end
+        warn("[P17 LAB] Clipe nao cadastrado:",id)
+    end)
+end)
 for _,signal in ipairs({"Posto17InTestRange","P17InMainMenu","Posto17InVisualShowcase"}) do
     player:GetAttributeChangedSignal(signal):Connect(function()
         if not visible() and root.Visible then openPanel(false) end

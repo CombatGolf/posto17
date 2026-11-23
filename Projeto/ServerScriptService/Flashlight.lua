@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/Flashlight (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 local Flashlight = {}
 function Flashlight.new(ctx)
     local event = ctx.remote("Posto17Flashlight")

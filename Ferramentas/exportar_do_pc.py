@@ -50,7 +50,7 @@ for sub,service in smap.items():
         dest_object=rel.name.removesuffix('.luau').removesuffix('.server').removesuffix('.client')
         studio=f'{service}/{"/".join(rel.parts[:-1])+"/" if len(rel.parts)>1 else ""}{dest_object}'
         source=clean_text(src)
-        add_text(dst, f'-- Local no Studio: {studio} ({className})\n-- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).\n'+source)
+        add_text(dst, f'-- Local no Studio: {studio} ({className})\n-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).\n'+source)
         mappings.append({'source':str(src.relative_to(ROOT)), 'file':str(dst.relative_to(REPO)), 'studio':studio, 'class':className})
 # Canonical Rojo source + config, so full game can be built without any plugins.
 safe_copy(ROOT/'default.project.json',OUT/'FonteRojo/default.project.json')
@@ -65,12 +65,13 @@ asset_map={
   'Posto17R6Corpo.rbxmx':'ReplicatedStorage/Posto17Shared/Posto17R6Corpo.rbxmx',
   'Posto17R6Amostras.rbxmx':'ReplicatedStorage/Posto17Shared/Posto17R6Amostras.rbxmx',
   'Posto17R6Preview.rbxmx':'ReplicatedStorage/Posto17Shared/Posto17R6Preview.rbxmx',
+  'Posto17R6Interacoes.rbxmx':'ReplicatedStorage/Posto17Shared/Posto17R6Interacoes.rbxmx',
   'Posto17RobloxWeapons.rbxmx':'ServerStorage/Posto17RobloxWeapons.rbxmx',
 }
 for name,dest in asset_map.items():safe_copy(ROOT/'src/assets'/name,OUT/dest)
 compiled=ROOT/'tests/headless/Posto17-HEADLESS-DEV.rbxl'
 assert compiled.stat().st_size>500_000
-safe_copy(compiled,OUT/'Compilado/Posto17-v126-COMPLETO.rbxl')
+safe_copy(compiled,OUT/'Compilado/Posto17-v131-COMPLETO.rbxl')
 # Editable models, actual 3D origin; do not include external binary executables or test backups.
 models=ROOT/'assets3d'
 models_copied=0
@@ -105,22 +106,22 @@ for src in rig.rglob('*'):
 add_text(OUT/'Workspace/Mapa/LEIA-ME.md',
 '''# Mapa / Workspace
 O mapa do Posto 17 é criado por scripts Luau em `Projeto/ServerScriptService/`, principalmente `Posto17.server.lua`, `Facilities.lua`, `WorldDetail.lua`, `TestRange.lua` e `VisualShowcase.lua`.
-A reprodução binária exata do jogo inteiro está em `Projeto/Compilado/Posto17-v126-COMPLETO.rbxl`.
+A reprodução binária exata do jogo inteiro está em `Projeto/Compilado/Posto17-v131-COMPLETO.rbxl`.
 ''')
 add_text(OUT/'StarterGui/LEIA-ME.md',
 '''# Interfaces / StarterGui
 A UI é construída dinamicamente pelos LocalScripts em `Projeto/StarterPlayer/StarterPlayerScripts/`:
 `MenuInicial.client.lua`, `HUD.client.lua`, `AnimacaoIndividual.client.lua`, `TouchLayout.client.lua` e outros.
-A reprodução exata de tudo já compilado está em `Projeto/Compilado/Posto17-v126-COMPLETO.rbxl`.
+A reprodução exata de tudo já compilado está em `Projeto/Compilado/Posto17-v131-COMPLETO.rbxl`.
 ''')
 add_text(OUT/'README.md',
-'''# Posto 17 — cópia completa do jogo (v126; R6)
+'''# Posto 17 — cópia completa do jogo (v131; R6)
 
 **Origem:** PC do integrador. **Alvo:** Roblox QA privado, Place ID `119377443515742`.  
 **Rig obrigatório:** **R6 clássico**, não R15.
 
 ## Onde estão os arquivos
-- `Compilado/Posto17-v126-COMPLETO.rbxl`: **arquivo Roblox completo e pronto para abrir no Studio** (alternativa mais fiel).
+- `Compilado/Posto17-v131-COMPLETO.rbxl`: **arquivo Roblox completo e pronto para abrir no Studio** (alternativa mais fiel).
 - `FonteRojo/`: o projeto completo para build, com `default.project.json` e todo `src/`, inclusive animações, modelos R6 e scripts.
 - `ServerScriptService/`, `StarterPlayer/`, `ReplicatedStorage/`, `ServerStorage/`: espelho da hierarquia real do Studio; arquivos Luau como `.lua`, com caminho no topo.
 - `Modelos_Editaveis/`: modelos 3D originais (Blockbench e arquivos auxiliares).
@@ -131,10 +132,10 @@ add_text(OUT/'README.md',
 - `MANIFESTO_EXPORTACAO.json`: lista das correspondências de Script/ModuleScript/LocalScript.
 
 ## Compilar sem plugin no Studio
-Use `Compilado/Posto17-v126-COMPLETO.rbxl` via Arquivo > Abrir do Roblox Studio. O jogo completo
+Use `Compilado/Posto17-v131-COMPLETO.rbxl` via Arquivo > Abrir do Roblox Studio. O jogo completo
 aparece como Place. Não é necessário plugin. Com Rojo CLI, também é possível compilar
 `FonteRojo/default.project.json`, a partir da pasta FonteRojo:
-`rojo build default.project.json --output Posto17-v126.rbxl`.
+`rojo build default.project.json --output Posto17-v131.rbxl`.
 
 **Não execute scripts originais da pasta Ferramentas sem inspeção.**
 **Nenhuma chave de publicação, senha ou token foi incluído.**  
@@ -146,7 +147,7 @@ Toda mudança relevante deve entrar neste repositório, com entrada no
 O usuário pode pedir publicação na experiência privada para testes no Fusion.
 ''')
 add_text(OUT/'MANIFESTO_EXPORTACAO.json',json.dumps({
- 'rig':'R6','place_id_qa':119377443515742,'base_version':126,
+ 'rig':'R6','place_id_qa':119377443515742,'base_version':131,
  'scripts':mappings,'model_files':models_copied,'rigflip_files':rigcopied,
  'source_count':len(mappings),'assets':asset_map
 },ensure_ascii=False,indent=2)+'\n')

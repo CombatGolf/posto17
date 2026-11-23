@@ -1,7 +1,7 @@
 {
   "rig": "R6",
   "place_id_qa": 119377443515742,
-  "base_version": 126,
+  "base_version": 131,
   "scripts": [
     {
       "source": "src/server/Ambience.luau",
@@ -49,6 +49,12 @@
       "source": "src/server/GuardVisuals.luau",
       "file": "Projeto/ServerScriptService/GuardVisuals.lua",
       "studio": "ServerScriptService/GuardVisuals",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/InteractionLab.luau",
+      "file": "Projeto/ServerScriptService/InteractionLab.lua",
+      "studio": "ServerScriptService/InteractionLab",
       "class": "ModuleScript"
     },
     {
@@ -244,6 +250,12 @@
       "class": "LocalScript"
     },
     {
+      "source": "src/client/P17Interacoes.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/P17Interacoes.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/P17Interacoes",
+      "class": "LocalScript"
+    },
+    {
       "source": "src/client/PistolHud.client.luau",
       "file": "Projeto/StarterPlayer/StarterPlayerScripts/PistolHud.client.lua",
       "studio": "StarterPlayer/StarterPlayerScripts/PistolHud",
@@ -342,7 +354,7 @@
   ],
   "model_files": 185,
   "rigflip_files": 305,
-  "source_count": 56,
+  "source_count": 58,
   "assets": {
     "Posto17R6StarterCharacter.rbxmx": "StarterPlayer/StarterCharacter/StarterCharacter.rbxmx",
     "StoreWalk.rbxm": "ReplicatedStorage/Posto17Shared/StoreWalk.rbxm",
@@ -351,6 +363,7 @@
     "Posto17R6Corpo.rbxmx": "ReplicatedStorage/Posto17Shared/Posto17R6Corpo.rbxmx",
     "Posto17R6Amostras.rbxmx": "ReplicatedStorage/Posto17Shared/Posto17R6Amostras.rbxmx",
     "Posto17R6Preview.rbxmx": "ReplicatedStorage/Posto17Shared/Posto17R6Preview.rbxmx",
+    "Posto17R6Interacoes.rbxmx": "ReplicatedStorage/Posto17Shared/Posto17R6Interacoes.rbxmx",
     "Posto17RobloxWeapons.rbxmx": "ServerStorage/Posto17RobloxWeapons.rbxmx"
   }
 }

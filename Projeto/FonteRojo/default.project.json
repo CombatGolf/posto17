@@ -41,6 +41,9 @@
         },
         "Posto17R6Preview": {
           "$path": "src/assets/Posto17R6Preview.rbxmx"
+        },
+        "Posto17R6Interacoes": {
+          "$path": "src/assets/Posto17R6Interacoes.rbxmx"
         }
       }
     },

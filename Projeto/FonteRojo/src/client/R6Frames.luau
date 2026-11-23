@@ -6,6 +6,8 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Motion = {}
 local shared = ReplicatedStorage:WaitForChild("Posto17Shared")
 local library = shared:WaitForChild("Posto17R6Corpo", 12)
+local samples = shared:WaitForChild("Posto17R6Amostras",12)
+local interactions = shared:WaitForChild("Posto17R6Interacoes",12)
 if library and not library:FindFirstChild("P17_Corpo_003") then
     for _, child in ipairs(library:GetDescendants()) do
         if child:IsA("Folder") and child:FindFirstChild("P17_Corpo_003") then
@@ -58,8 +60,14 @@ local active = setmetatable({}, {__mode="k"})
 local function readClip(key)
     if cache[key] ~= nil then return cache[key] or nil end
     if not library then return nil end
-    local id = ids[key]
-    local sequence = id and library:FindFirstChild(id)
+    -- Os totens de QA aceitam qualquer uma das 47 sequencias corporais ou
+    -- 26 sequencias de acessorios, sem sobrescrever o controle normal.
+    local id = ids[key] or (type(key)=="string" and (
+        key:match("^P17_Corpo_%d+$") or key:match("^P17_W_[%w_]+$")
+        or key:match("^P17_I_[%w_]+$")) and key)
+    local sequence=id and (library:FindFirstChild(id)
+        or (samples and samples:FindFirstChild(id))
+        or (interactions and interactions:FindFirstChild(id)))
     if not sequence or not sequence:IsA("KeyframeSequence") then
         warn("[P17 R6] Sequencia nao encontrada: ", key, id)
         cache[key] = false
@@ -141,6 +149,22 @@ local function preferredClip(player, info)
     local speed = Vector3.new(root.AssemblyLinearVelocity.X,0,root.AssemblyLinearVelocity.Z).Magnitude
     local grounded = humanoid.FloorMaterial ~= Enum.Material.Air
     local stance = stanceFor(player)
+    -- Enquanto um modelo novo estiver equipado no QA, usar os clipes R6
+    -- de postura e caminhada correspondentes. Fora do QA: comportamento
+    -- tradicional, sem alterar a missao.
+    local equipped=player:GetAttribute("P17LabEquipado")
+    if player:GetAttribute("Posto17InTestRange")==true and grounded
+        and stance=="STAND" and equipped~=nil then
+        local looks={
+            pistola={"P17_W_Pistola_Pronto","P17_W_Pistola_Mira_Andando"},
+            submetralhadora={"P17_W_Sub_Mirar_Parado","P17_W_Sub_Mira_Andando"},
+            fuzil={"P17_W_Fuzil_Mirar","P17_W_Fuzil_Mira_Andando"},
+        }
+        local pair=looks[equipped]
+        if pair then
+            return speed>.55 and pair[2] or pair[1], stance, grounded, speed
+        end
+    end
     if not grounded then
         return root.AssemblyLinearVelocity.Y > 0.8 and "jump" or "fall", stance, grounded, speed
     end
@@ -165,7 +189,13 @@ function Motion.update(player, info, dt)
     local humanoid = info.humanoid
     if humanoid.RigType ~= Enum.HumanoidRigType.R6 or not humanoid.RootPart then return false end
     if player:GetAttribute("Posto17Hidden") then return false end
-    if info.character:GetAttribute("P17Motion") then return false end
+    local requested=player:GetAttribute("P17LabClip")
+    local untilTime=player:GetAttribute("P17LabUntil")
+    local labActive=player:GetAttribute("Posto17InTestRange")==true
+        and typeof(requested)=="string"
+        and typeof(untilTime)=="number"
+        and workspace:GetServerTimeNow()<untilTime
+    if info.character:GetAttribute("P17Motion") and not labActive then return false end
 
     local state = active[info.character]
     if not state then
@@ -175,7 +205,10 @@ function Motion.update(player, info, dt)
     end
     local key,stance,grounded,speed = preferredClip(player,info)
     local newAction
-    if player:GetAttribute("Posto17Traversing") then
+    if labActive then
+        key=requested
+        state.action=nil
+    elseif player:GetAttribute("Posto17Traversing") then
         return false -- travessia ja e controlada pelo sistema existente
     elseif state.stance ~= nil and state.stance ~= stance then
         newAction=transitions[state.stance..">"..stance]
@@ -200,6 +233,12 @@ function Motion.update(player, info, dt)
     local selected=state.action or key
     local clip=readClip(selected)
     if not clip then return false end
+    -- Clipes de caminhada R6 em loop enquanto em movimento no laboratorio.
+    if selected=="P17_W_Pistola_Mira_Andando"
+       or selected=="P17_W_Sub_Mira_Andando"
+       or selected=="P17_W_Fuzil_Mira_Andando" then
+        clip.loop=true
+    end
     changeClip(state,selected)
     local rate=1
     if selected == "walk" then rate=math.clamp(speed/9,.4,1.8)

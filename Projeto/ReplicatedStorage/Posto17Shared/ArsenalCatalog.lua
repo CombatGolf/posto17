@@ -1,5 +1,5 @@
 -- Local no Studio: ReplicatedStorage/Posto17Shared/ArsenalCatalog (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 local items = {
     {id="Pistol", attribute="P17LoadoutPistol", label="Pistola",
         description="Arma secundária para a missão.", enable="Equipar", disable="Guardar",

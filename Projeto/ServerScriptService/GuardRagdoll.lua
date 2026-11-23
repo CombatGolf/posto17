@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/GuardRagdoll (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 local PhysicsService = game:GetService("PhysicsService")
 local Ragdoll = {}
 local GROUP = "P17Ragdoll"

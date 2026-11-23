@@ -1,5 +1,5 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/VisualShowcase (LocalScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 -- P17 Visual Showcase: HUD de referencia separado dos controles de jogo.
 -- Alternar AMOSTRAS nao afeta dificuldade, IA ou estado real da missao.
 local Players = game:GetService("Players")

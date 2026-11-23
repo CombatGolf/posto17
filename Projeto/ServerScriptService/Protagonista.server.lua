@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/Protagonista (Script)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 local Players = game:GetService("Players")
 local RS = game:GetService("ReplicatedStorage")
 local arsenal = require(RS:WaitForChild("Posto17Shared"):WaitForChild("ArsenalCatalog"))

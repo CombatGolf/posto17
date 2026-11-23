@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/TestRange (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 -- Posto 17: area de ensaio permanente, isolada da missao.
 -- Somente no Studio ou no Place de testes. A experiencia original nao muda.
 local TestRange = {}
@@ -39,7 +39,8 @@ function TestRange.build(ctx)
         geometry("LimitePista", Vector3.new(78, 1.8, 0.55),
             Vector3.new(0, 0.9, z), DARK, Enum.Material.Metal, true)
     end
-    for _, x in ipairs({-38.5, 38.5}) do
+    -- Face leste aberta: corredor conecta a ala de 146 x 132 studs.
+    for _, x in ipairs({-38.5}) do
         geometry("LimitePista", Vector3.new(0.55, 1.8, 60),
             Vector3.new(x, 0.9, 0), DARK, Enum.Material.Metal, true)
     end
@@ -277,8 +278,15 @@ function TestRange.build(ctx)
         end)
     end
 
+    -- Cada uma das 73 animacoes tem totens com contexto e, separadamente,
+    -- 16 estacoes manipulaveis (portas, terminais, dutos, modelos, etc.).
+    local lab = require(script.Parent.InteractionLab).build({
+        world=ctx.world,players=ctx.players,origin=ORIGIN,
+        group=group,geometry=geometry,label=label,spawn=spawn,
+    })
     ctx.world:SetAttribute("TestRangeEnabled", true)
-    ctx.world:SetAttribute("TestRangeVersion", "1")
+    ctx.world:SetAttribute("TestRangeVersion", "3: 73 + 16")
+    ctx.world:SetAttribute("P17LabReady", lab ~= nil)
     return {spawn = spawn, root = group, showcase = showcase}
 end
 return TestRange

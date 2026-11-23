@@ -1,10 +1,10 @@
 # Gerador de projeto (Command Bar)
 
-- Gerado automaticamente com 56 scripts e 18880 instâncias de modelos e animações.
-- Tamanho do gerador: 5,509,574 caracteres.
+- Gerado automaticamente com 58 scripts e 19793 instâncias de modelos e animações.
+- Tamanho do gerador: 5,783,168 caracteres.
 - Inclui todos os scripts e os principais modelos/rigs/seqüências R6 a partir do projeto original.
 - **Recomendado:** para abrir integralmente o jogo no Studio sem reconstrução, utilize
-  `Compilado/Posto17-v126-COMPLETO.rbxl`. É o artefato exato gerado pelo Rojo.
+  `Compilado/Posto17-v131-COMPLETO.rbxl`. É o artefato exato gerado pelo Rojo.
 - O gerador cria scripts e propriedades via APIs do Studio; alguns dados legados de
   assets serializados (como `StoreWalk.rbxm` R15 e scripts internos protegidos em
   `Posto17RobloxWeapons.rbxmx`) permanecem no `.rbxl` compilado, não totalmente

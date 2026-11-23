@@ -1,5 +1,5 @@
 -- Local no Studio: StarterPlayer/StarterPlayerScripts/ArsenalBench (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 local Art = require(game:GetService("ReplicatedStorage")

@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/Settings (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 local Rules = require(game:GetService("ReplicatedStorage").Posto17Shared.Rules)
 local Settings = {}
 function Settings.new(ctx)

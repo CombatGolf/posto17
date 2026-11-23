@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/PistolRules (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 local Players = game:GetService("Players")
 
 local Pistol = {

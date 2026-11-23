@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/Facilities (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 -- Salas opcionais e acesso: codigo, cartao e alternativa por lockpick.
 local Rules = require(game:GetService("ReplicatedStorage").Posto17Shared.Rules)
 local Facilities = {}

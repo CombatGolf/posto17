@@ -1,5 +1,5 @@
 -- Local no Studio: ServerScriptService/PowerGrid (ModuleScript)
--- Fonte sincronizada do Posto17 v126; preserva o nome Rojo (.client/.server).
+-- Fonte sincronizada do Posto17 v131; preserva o nome Rojo (.client/.server).
 -- Quadro de energia sabotavel. Independente do rele de cameras e do radio.
 -- Contramedida: fontes dos guardas seguem ativas e cameras tem bateria.
 local Rules = require(game:GetService("ReplicatedStorage").Posto17Shared.Rules)

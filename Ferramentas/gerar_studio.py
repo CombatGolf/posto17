@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Generate Studio Command Bar importer from self-contained Luau and XML in Projeto/.
-The canonical complete version remains Projeto/Compilado/Posto17-v126-COMPLETO.rbxl.
+The canonical complete version remains Projeto/Compilado/Posto17-v131-COMPLETO.rbxl.
 This generator recreates source scripts, models, R6 keyframes, and UI definitions.
 """
 from pathlib import Path
@@ -83,6 +83,7 @@ def props_of(elem):
 ASSET_MAP={
  'Posto17R6StarterCharacter.rbxmx':'StarterPlayer',
  'Posto17R6Preview.rbxmx':'ReplicatedStorage/Posto17Shared',
+ 'Posto17R6Interacoes.rbxmx':'ReplicatedStorage/Posto17Shared',
  'Posto17R6Corpo.rbxmx':'ReplicatedStorage/Posto17Shared',
  'Posto17R6Amostras.rbxmx':'ReplicatedStorage/Posto17Shared',
  'StoreBed.rbxmx':'ReplicatedStorage/Posto17Shared',
@@ -105,11 +106,11 @@ for name,service in ASSET_MAP.items():
     print('SERIALIZED',name,len(nodes),'objects')
 # The legacy R15 StoreWalk archive is preserved as .rbxm and within .rbxl,
 # but is not loaded by the R6-only runtime or the Command Bar generator.
-assert len(asset_groups)==7
+assert len(asset_groups)==8
 
 head=r'''-- POSTO 17 / GERADOR DO PROJETO | R6 CLASSICO
 -- Execute no Roblox Studio > View > Command Bar (modo EDICAO).
--- Restaurar o projeto completo sem reconstruir: abra Compilado/Posto17-v126-COMPLETO.rbxl.
+-- Restaurar o projeto completo sem reconstruir: abra Compilado/Posto17-v131-COMPLETO.rbxl.
 -- Este gerador cria scripts Luau, rigs, mapas via scripts e sequencias R6,
 -- sem baixar assets externos nem depender de plugins.
 -- NAO execute em servidores publicos. Execute apenas no Studio em uma cópia vazia.
@@ -291,7 +292,7 @@ out.write_text(code)
 - Tamanho do gerador: {len(code):,} caracteres.
 - Inclui todos os scripts e os principais modelos/rigs/seqüências R6 a partir do projeto original.
 - **Recomendado:** para abrir integralmente o jogo no Studio sem reconstrução, utilize
-  `Compilado/Posto17-v126-COMPLETO.rbxl`. É o artefato exato gerado pelo Rojo.
+  `Compilado/Posto17-v131-COMPLETO.rbxl`. É o artefato exato gerado pelo Rojo.
 - O gerador cria scripts e propriedades via APIs do Studio; alguns dados legados de
   assets serializados (como `StoreWalk.rbxm` R15 e scripts internos protegidos em
   `Posto17RobloxWeapons.rbxmx`) permanecem no `.rbxl` compilado, não totalmente
