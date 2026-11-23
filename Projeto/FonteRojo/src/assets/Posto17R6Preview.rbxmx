@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd">
+  <Item class="Model" referent="P17PREVIEW_0">
+    <Properties>
+      <string name="Name">Posto17R6Preview</string>
+      <Ref name="PrimaryPart">P17PREVIEW_14</Ref>
+    </Properties>
+    <Item class="Part" referent="P17PREVIEW_1">
+      <Properties>
+        <string name="Name">Head</string>
+        <Vector3 name="Size">
+          <X>2.0</X>
+          <Y>1.0</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>4.500305176</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">true</bool>
+        <bool name="CanTouch">true</bool>
+        <bool name="CanQuery">true</bool>
+        <float name="Transparency">0.0</float>
+        <bool name="Massless">false</bool>
+        <Color3 name="Color">
+          <R>0.67</R>
+          <G>0.51</G>
+          <B>0.39</B>
+        </Color3>
+      </Properties>
+      <Item class="SpecialMesh" referent="P17PREVIEW_2">
+        <Properties>
+          <string name="Name">Mesh</string>
+          <token name="MeshType">0</token>
+          <Vector3 name="Scale">
+            <X>1.25</X>
+            <Y>1.25</Y>
+            <Z>1.25</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Decal" referent="P17PREVIEW_3">
+        <Properties>
+          <string name="Name">face</string>
+          <token name="Face">5</token>
+          <Content name="Texture">
+            <url>rbxasset://textures/face.png</url>
+          </Content>
+          <float name="Transparency">0</float>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="P17PREVIEW_4">
+      <Properties>
+        <string name="Name">Torso</string>
+        <Vector3 name="Size">
+          <X>2.0</X>
+          <Y>2.0</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>3.000305176</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">true</bool>
+        <bool name="CanTouch">true</bool>
+        <bool name="CanQuery">true</bool>
+        <float name="Transparency">0.0</float>
+        <bool name="Massless">false</bool>
+        <Color3 name="Color">
+          <R>0.15</R>
+          <G>0.16</G>
+          <B>0.17</B>
+        </Color3>
+      </Properties>
+      <Item class="Motor6D" referent="P17PREVIEW_5">
+        <Properties>
+          <string name="Name">Neck</string>
+          <Ref name="Part0">P17PREVIEW_4</Ref>
+          <Ref name="Part1">P17PREVIEW_1</Ref>
+          <CoordinateFrame name="C0">
+            <X>0</X>
+            <Y>1</Y>
+            <Z>0</Z>
+            <R00>-1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0</R11>
+            <R12>1</R12>
+            <R20>0</R20>
+            <R21>1</R21>
+            <R22>-0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>-0.5</Y>
+            <Z>0</Z>
+            <R00>-1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0</R11>
+            <R12>1</R12>
+            <R20>0</R20>
+            <R21>1</R21>
+            <R22>-0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+      <Item class="Motor6D" referent="P17PREVIEW_6">
+        <Properties>
+          <string name="Name">Right Shoulder</string>
+          <Ref name="Part0">P17PREVIEW_4</Ref>
+          <Ref name="Part1">P17PREVIEW_11</Ref>
+          <CoordinateFrame name="C0">
+            <X>1</X>
+            <Y>0.5</Y>
+            <Z>0</Z>
+            <R00>0</R00>
+            <R01>0</R01>
+            <R02>1</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>-0</R12>
+            <R20>-1</R20>
+            <R21>0</R21>
+            <R22>0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>-0.5</X>
+            <Y>0.5</Y>
+            <Z>0</Z>
+            <R00>0</R00>
+            <R01>0</R01>
+            <R02>1</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>-0</R12>
+            <R20>-1</R20>
+            <R21>0</R21>
+            <R22>0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+      <Item class="Motor6D" referent="P17PREVIEW_7">
+        <Properties>
+          <string name="Name">Left Shoulder</string>
+          <Ref name="Part0">P17PREVIEW_4</Ref>
+          <Ref name="Part1">P17PREVIEW_10</Ref>
+          <CoordinateFrame name="C0">
+            <X>-1</X>
+            <Y>0.5</Y>
+            <Z>0</Z>
+            <R00>0</R00>
+            <R01>0</R01>
+            <R02>-1</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>1</R20>
+            <R21>0</R21>
+            <R22>0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0.5</X>
+            <Y>0.5</Y>
+            <Z>0</Z>
+            <R00>0</R00>
+            <R01>0</R01>
+            <R02>-1</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>1</R20>
+            <R21>0</R21>
+            <R22>0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+      <Item class="Motor6D" referent="P17PREVIEW_8">
+        <Properties>
+          <string name="Name">Right Hip</string>
+          <Ref name="Part0">P17PREVIEW_4</Ref>
+          <Ref name="Part1">P17PREVIEW_13</Ref>
+          <CoordinateFrame name="C0">
+            <X>1</X>
+            <Y>-1</Y>
+            <Z>0</Z>
+            <R00>0</R00>
+            <R01>0</R01>
+            <R02>1</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>-0</R12>
+            <R20>-1</R20>
+            <R21>0</R21>
+            <R22>0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0.5</X>
+            <Y>1</Y>
+            <Z>0</Z>
+            <R00>0</R00>
+            <R01>0</R01>
+            <R02>1</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>-0</R12>
+            <R20>-1</R20>
+            <R21>0</R21>
+            <R22>0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+      <Item class="Motor6D" referent="P17PREVIEW_9">
+        <Properties>
+          <string name="Name">Left Hip</string>
+          <Ref name="Part0">P17PREVIEW_4</Ref>
+          <Ref name="Part1">P17PREVIEW_12</Ref>
+          <CoordinateFrame name="C0">
+            <X>-1</X>
+            <Y>-1</Y>
+            <Z>0</Z>
+            <R00>0</R00>
+            <R01>0</R01>
+            <R02>-1</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>1</R20>
+            <R21>0</R21>
+            <R22>0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>-0.5</X>
+            <Y>1</Y>
+            <Z>0</Z>
+            <R00>0</R00>
+            <R01>0</R01>
+            <R02>-1</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>1</R20>
+            <R21>0</R21>
+            <R22>0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="P17PREVIEW_10">
+      <Properties>
+        <string name="Name">Left Arm</string>
+        <Vector3 name="Size">
+          <X>1.0</X>
+          <Y>2.0</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.5</X>
+          <Y>3.000305176</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">true</bool>
+        <bool name="CanQuery">true</bool>
+        <float name="Transparency">0.0</float>
+        <bool name="Massless">false</bool>
+        <Color3 name="Color">
+          <R>0.15</R>
+          <G>0.16</G>
+          <B>0.17</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="P17PREVIEW_11">
+      <Properties>
+        <string name="Name">Right Arm</string>
+        <Vector3 name="Size">
+          <X>1.0</X>
+          <Y>2.0</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.5</X>
+          <Y>3.000305176</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">true</bool>
+        <bool name="CanQuery">true</bool>
+        <float name="Transparency">0.0</float>
+        <bool name="Massless">false</bool>
+        <Color3 name="Color">
+          <R>0.15</R>
+          <G>0.16</G>
+          <B>0.17</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="P17PREVIEW_12">
+      <Properties>
+        <string name="Name">Left Leg</string>
+        <Vector3 name="Size">
+          <X>1.0</X>
+          <Y>2.0</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.5</X>
+          <Y>1.000305176</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">true</bool>
+        <bool name="CanQuery">true</bool>
+        <float name="Transparency">0.0</float>
+        <bool name="Massless">false</bool>
+        <Color3 name="Color">
+          <R>0.12</R>
+          <G>0.13</G>
+          <B>0.14</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="P17PREVIEW_13">
+      <Properties>
+        <string name="Name">Right Leg</string>
+        <Vector3 name="Size">
+          <X>1.0</X>
+          <Y>2.0</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.5</X>
+          <Y>1.000305176</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">true</bool>
+        <bool name="CanQuery">true</bool>
+        <float name="Transparency">0.0</float>
+        <bool name="Massless">false</bool>
+        <Color3 name="Color">
+          <R>0.12</R>
+          <G>0.13</G>
+          <B>0.14</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="P17PREVIEW_14">
+      <Properties>
+        <string name="Name">HumanoidRootPart</string>
+        <Vector3 name="Size">
+          <X>2.0</X>
+          <Y>2.0</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>3.000305176</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">true</bool>
+        <bool name="CanQuery">true</bool>
+        <float name="Transparency">1.0</float>
+        <bool name="Massless">false</bool>
+        <Color3 name="Color">
+          <R>0.67</R>
+          <G>0.51</G>
+          <B>0.39</B>
+        </Color3>
+      </Properties>
+      <Item class="Motor6D" referent="P17PREVIEW_15">
+        <Properties>
+          <string name="Name">RootJoint</string>
+          <Ref name="Part0">P17PREVIEW_14</Ref>
+          <Ref name="Part1">P17PREVIEW_4</Ref>
+          <CoordinateFrame name="C0">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>-1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0</R11>
+            <R12>1</R12>
+            <R20>0</R20>
+            <R21>1</R21>
+            <R22>-0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>-1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0</R11>
+            <R12>1</R12>
+            <R20>0</R20>
+            <R21>1</R21>
+            <R22>-0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Humanoid" referent="P17PREVIEW_16">
+      <Properties>
+        <string name="Name">Humanoid</string>
+        <token name="RigType">0</token>
+        <float name="MaxHealth">100</float>
+        <float name="Health">100</float>
+        <float name="HipHeight">0</float>
+        <float name="WalkSpeed">16</float>
+        <float name="JumpPower">50</float>
+        <bool name="AutoRotate">true</bool>
+        <bool name="RequiresNeck">true</bool>
+        <bool name="BreakJointsOnDeath">true</bool>
+      </Properties>
+      <Item class="Animator" referent="P17PREVIEW_17">
+        <Properties>
+          <string name="Name">Animator</string>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

@@ -19,20 +19,20 @@ Você é o integrador oficial do projeto **POSTO 17** — jogo tático de infilt
 4. **Não apague nem altere nada fora de `Projeto/`** — em especial `Animacoes/`, `Equipamentos/` e `PARA_O_CHATGPT/` (são do gerador Z.ai).
 
 ## 2. Integrar o que o gerador publica
-1. A cada commit novo em `Animacoes/` ou `Equipamentos/`, integre os arquivos ao projeto: crie os ModuleScripts correspondentes nos caminhos corretos e ligue-os aos controles do personagem (mira, disparo, movimento, interação com obstáculos).
+1. A cada commit novo em `Animacoes/` ou `Equipamentos/`, inspecione a entrega, garanta compatibilidade R6 e prepare um teste. Integre ao jogo só após validação do usuário; itens para teste podem ir à experiência privada QA/Fusion quando solicitado.
 2. Não reescreva a lógica interna dos arquivos do gerador. Se precisar de adaptação, comente no commit o que foi alterado e por quê.
-3. Cada animação traz `CALIBRAGEM` e `CORRECOES` no topo — use-as para ajustar por rig; não mexa nos quadros-chave.
+3. Inspecione o rig de cada entrega antes de integrar. **Animações R15 não são aceitas**. Preferir novas sequências R6 com calibração por juntas, sem alterar poses originais aprovadas.
 
 ## 3. Compilar e mandar pro Roblox (por ordem de preferência)
 1. **Gerador de projeto (OBRIGATÓRIO manter atualizado, zero plugins)** — crie/atualize `Projeto/GERADOR_DO_PROJETO.lua`: um único script que, colado na **barra de comandos do Roblox Studio** (View → Command Bar), recria toda a árvore do projeto via `Instance.new` e define o `Source` de cada Script/ModuleScript (permitido no modo de edição). O usuário cola, aperta Enter uma vez e o projeto inteiro monta no Studio.
-2. **Colagem manual** — para entregas pequenas, liste em ordem: caminho no Studio, tipo da instância (Script/ModuleScript) e o arquivo correspondente.
-3. **Rojo (opcional)** — apenas se o usuário autorizar instalar o plugin do Rojo no Studio (ferramenta de desenvolvimento; não faz parte do jogo).
+2. **Arquivo .rbxl pronto e completo** — manter cópia atualizada em `Projeto/Compilado/`. O usuário prefere não instalar/abrir Studio para desenvolvimento; facilitar testes pelo Fusion.
+3. **Rojo CLI** — o projeto já usa `rojo build` sem depender de plugin do Studio. Manter `Projeto/FonteRojo/` sincronizado.
 
 ## 4. Regras que você também deve cumprir
 - API 100% nativa do Roblox; proibido assets externos, IDs de terceiros, plugins e dependências.
 - Commits com mensagem descritiva em português, prefixados por `integra:`, `feat:`, `fix:`, `docs:` ou `mural:`.
 - Toda alteração de gameplay deve manter compatibilidade com `Animacoes/` e `Equipamentos/` (nomes de funções: `Preparar`, `Play`, `Stop`, `Atirar`, `Marcar`, `FixarArma`).
-- Rig do personagem: R15.
+- Rig do personagem: **R6 clássico obrigatório**. O usuário substituiu o padrão antigo R15 em 23/11/2026.
 - **No início de toda mensagem, verifique o histórico de commits e o mural** (`PARA_O_CHATGPT/MURAL.md`) para reagir às novidades do Z.ai.
 
 ## 5. Ao terminar

@@ -1,0 +1,272 @@
+{
+  "sourceModels": "Posto17_Modelos_Padrao.json",
+  "gunMounts": {
+    "pistola": "perna direita",
+    "submetralhadora": "lado esquerdo",
+    "fuzil": "costas"
+  },
+  "sourceAim": "Pistola tiro com recuo (manual do usuario)",
+  "attachments": "Somente slots-base; seleção no jogo ainda não implementada",
+  "animations": [
+    {
+      "name": "P17V2_Pistola_Atirar",
+      "file": "P17V2_Pistola_Atirar.rbxmx",
+      "project": "P17V2_Pistola_Atirar.r6flip.json",
+      "frames": 4,
+      "fps": 60,
+      "weapon": "pistola",
+      "note": "Mesmos quatro quadros corporais de Pistola tiro com recuo, arma visual ajustada à mão",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Pistola_Mirar_Parado",
+      "file": "P17V2_Pistola_Mirar_Parado.rbxmx",
+      "project": "P17V2_Pistola_Mirar_Parado.r6flip.json",
+      "frames": 25,
+      "fps": 24,
+      "weapon": "pistola",
+      "note": "Mira derivada diretamente do primeiro quadro da animação manual",
+      "loop": true
+    },
+    {
+      "name": "P17V2_Pistola_Sacar",
+      "file": "P17V2_Pistola_Sacar.rbxmx",
+      "project": "P17V2_Pistola_Sacar.r6flip.json",
+      "frames": 26,
+      "fps": 30,
+      "weapon": "pistola",
+      "note": "Do coldre da perna direita até a mira manual",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Pistola_Guardar",
+      "file": "P17V2_Pistola_Guardar.rbxmx",
+      "project": "P17V2_Pistola_Guardar.r6flip.json",
+      "frames": 26,
+      "fps": 30,
+      "weapon": "pistola",
+      "note": "Inversão do saque; retorna à perna direita",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Pistola_Pronto",
+      "file": "P17V2_Pistola_Pronto.rbxmx",
+      "project": "P17V2_Pistola_Pronto.r6flip.json",
+      "frames": 16,
+      "fps": 24,
+      "weapon": "pistola",
+      "note": "Pronto baixo baseado nos braços da mira manual",
+      "loop": true
+    },
+    {
+      "name": "P17V2_Pistola_Erguer_Mira",
+      "file": "P17V2_Pistola_Erguer_Mira.rbxmx",
+      "project": "P17V2_Pistola_Erguer_Mira.r6flip.json",
+      "frames": 12,
+      "fps": 30,
+      "weapon": "pistola",
+      "note": "Pronto para mira manual",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Pistola_Baixar_Mira",
+      "file": "P17V2_Pistola_Baixar_Mira.rbxmx",
+      "project": "P17V2_Pistola_Baixar_Mira.r6flip.json",
+      "frames": 12,
+      "fps": 30,
+      "weapon": "pistola",
+      "note": "Mira manual para pronto",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Pistola_Recarregar",
+      "file": "P17V2_Pistola_Recarregar.rbxmx",
+      "project": "P17V2_Pistola_Recarregar.r6flip.json",
+      "frames": 33,
+      "fps": 30,
+      "weapon": "pistola",
+      "note": "Gesto simples de recarga derivado da mira manual",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Pistola_Mira_Andando",
+      "file": "P17V2_Pistola_Mira_Andando.rbxmx",
+      "project": "P17V2_Pistola_Mira_Andando.r6flip.json",
+      "frames": 40,
+      "fps": 60,
+      "weapon": "pistola",
+      "note": "Parte superior da mira manual + movimento Walk",
+      "loop": true
+    },
+    {
+      "name": "P17V2_Pistola_Mira_Agachado",
+      "file": "P17V2_Pistola_Mira_Agachado.rbxmx",
+      "project": "P17V2_Pistola_Mira_Agachado.r6flip.json",
+      "frames": 15,
+      "fps": 30,
+      "weapon": "pistola",
+      "note": "Parte superior da mira manual + movimento CrouchIdle",
+      "loop": true
+    },
+    {
+      "name": "P17V2_Pistola_Mira_Deitado",
+      "file": "P17V2_Pistola_Mira_Deitado.rbxmx",
+      "project": "P17V2_Pistola_Mira_Deitado.r6flip.json",
+      "frames": 24,
+      "fps": 15,
+      "weapon": "pistola",
+      "note": "Parte superior da mira manual + movimento Deitado_Parado",
+      "loop": true
+    },
+    {
+      "name": "P17V2_Sub_Sacar",
+      "file": "P17V2_Sub_Sacar.rbxmx",
+      "project": "P17V2_Sub_Sacar.r6flip.json",
+      "frames": 60,
+      "fps": 60,
+      "weapon": "submetralhadora",
+      "note": "Saque corporal escolhido; modelo real vem do lado esquerdo",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Sub_Guardar",
+      "file": "P17V2_Sub_Guardar.rbxmx",
+      "project": "P17V2_Sub_Guardar.r6flip.json",
+      "frames": 60,
+      "fps": 60,
+      "weapon": "submetralhadora",
+      "note": "Guarda invertendo o saque escolhido",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Sub_Atirar",
+      "file": "P17V2_Sub_Atirar.rbxmx",
+      "project": "P17V2_Sub_Atirar.r6flip.json",
+      "frames": 30,
+      "fps": 60,
+      "weapon": "submetralhadora",
+      "note": "Mantém a sequência corporal selecionada",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Sub_Recarregar",
+      "file": "P17V2_Sub_Recarregar.rbxmx",
+      "project": "P17V2_Sub_Recarregar.r6flip.json",
+      "frames": 181,
+      "fps": 60,
+      "weapon": "submetralhadora",
+      "note": "Mantém a sequência corporal selecionada",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Sub_Mirar_Parado",
+      "file": "P17V2_Sub_Mirar_Parado.rbxmx",
+      "project": "P17V2_Sub_Mirar_Parado.r6flip.json",
+      "frames": 25,
+      "fps": 24,
+      "weapon": "submetralhadora",
+      "note": "Postura do arquivo selecionado de disparo",
+      "loop": true
+    },
+    {
+      "name": "P17V2_Sub_Mira_Andando",
+      "file": "P17V2_Sub_Mira_Andando.rbxmx",
+      "project": "P17V2_Sub_Mira_Andando.r6flip.json",
+      "frames": 40,
+      "fps": 60,
+      "weapon": "submetralhadora",
+      "note": "Postura selecionada sobre movimento Walk",
+      "loop": true
+    },
+    {
+      "name": "P17V2_Sub_Mira_Agachado",
+      "file": "P17V2_Sub_Mira_Agachado.rbxmx",
+      "project": "P17V2_Sub_Mira_Agachado.r6flip.json",
+      "frames": 15,
+      "fps": 30,
+      "weapon": "submetralhadora",
+      "note": "Postura selecionada sobre movimento CrouchIdle",
+      "loop": true
+    },
+    {
+      "name": "P17V2_Fuzil_Mirar",
+      "file": "P17V2_Fuzil_Mirar.rbxmx",
+      "project": "P17V2_Fuzil_Mirar.r6flip.json",
+      "frames": 5,
+      "fps": 6,
+      "weapon": "fuzil",
+      "note": "Corpo do projeto já salvo; modelo real acoplado à mão",
+      "loop": true
+    },
+    {
+      "name": "P17V2_Fuzil_Recuo",
+      "file": "P17V2_Fuzil_Recuo.rbxmx",
+      "project": "P17V2_Fuzil_Recuo.r6flip.json",
+      "frames": 7,
+      "fps": 15,
+      "weapon": "fuzil",
+      "note": "Corpo do projeto já salvo; modelo real acoplado à mão",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Fuzil_Recarregar",
+      "file": "P17V2_Fuzil_Recarregar.rbxmx",
+      "project": "P17V2_Fuzil_Recarregar.r6flip.json",
+      "frames": 25,
+      "fps": 15,
+      "weapon": "fuzil",
+      "note": "Corpo do projeto já salvo; modelo real acoplado à mão",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Fuzil_Inspecionar",
+      "file": "P17V2_Fuzil_Inspecionar.rbxmx",
+      "project": "P17V2_Fuzil_Inspecionar.r6flip.json",
+      "frames": 13,
+      "fps": 12,
+      "weapon": "fuzil",
+      "note": "Corpo do projeto já salvo; modelo real acoplado à mão",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Fuzil_Sacar_Costas",
+      "file": "P17V2_Fuzil_Sacar_Costas.rbxmx",
+      "project": "P17V2_Fuzil_Sacar_Costas.r6flip.json",
+      "frames": 37,
+      "fps": 30,
+      "weapon": "fuzil",
+      "note": "Saque provisório das costas; termina na mira salva",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Fuzil_Guardar_Costas",
+      "file": "P17V2_Fuzil_Guardar_Costas.rbxmx",
+      "project": "P17V2_Fuzil_Guardar_Costas.r6flip.json",
+      "frames": 37,
+      "fps": 30,
+      "weapon": "fuzil",
+      "note": "Guarda invertida do saque, até as costas",
+      "loop": false
+    },
+    {
+      "name": "P17V2_Fuzil_Mira_Andando",
+      "file": "P17V2_Fuzil_Mira_Andando.rbxmx",
+      "project": "P17V2_Fuzil_Mira_Andando.r6flip.json",
+      "frames": 40,
+      "fps": 60,
+      "weapon": "fuzil",
+      "note": "Mira do projeto salvo reaproveitada com Walk",
+      "loop": true
+    },
+    {
+      "name": "P17V2_Fuzil_Mira_Agachado",
+      "file": "P17V2_Fuzil_Mira_Agachado.rbxmx",
+      "project": "P17V2_Fuzil_Mira_Agachado.r6flip.json",
+      "frames": 15,
+      "fps": 30,
+      "weapon": "fuzil",
+      "note": "Mira do projeto salvo reaproveitada com CrouchIdle",
+      "loop": true
+    }
+  ]
+}

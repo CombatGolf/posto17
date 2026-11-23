@@ -1,0 +1,156 @@
+{
+  "source_projects": 49,
+  "unique_by_content": 44,
+  "new_animations": [
+    {
+      "name": "Fuzil_Sacar_Costas_Rascunho",
+      "group": "Fuzil",
+      "frames": 37,
+      "duration": 1.233,
+      "loop": false,
+      "note": "Rascunho de saque: mão alcança as costas, postura final aproveita fuzil mirar",
+      "rbxmx": "Fuzil_Sacar_Costas_Rascunho.rbxmx",
+      "project": "Fuzil_Sacar_Costas_Rascunho.r6flip.json"
+    },
+    {
+      "name": "Fuzil_Guardar_Costas_Rascunho",
+      "group": "Fuzil",
+      "frames": 37,
+      "duration": 1.233,
+      "loop": false,
+      "note": "Guarda inversa do saque, com término na postura Idle aprovada",
+      "rbxmx": "Fuzil_Guardar_Costas_Rascunho.rbxmx",
+      "project": "Fuzil_Guardar_Costas_Rascunho.r6flip.json"
+    },
+    {
+      "name": "Fuzil_Mira_Andando_Reuso",
+      "group": "Fuzil",
+      "frames": 40,
+      "duration": 0.667,
+      "loop": true,
+      "note": "Pernas do Walk aprovado, braços da mira selecionada",
+      "rbxmx": "Fuzil_Mira_Andando_Reuso.rbxmx",
+      "project": "Fuzil_Mira_Andando_Reuso.r6flip.json"
+    },
+    {
+      "name": "Fuzil_Mira_Agachado_Reuso",
+      "group": "Fuzil",
+      "frames": 15,
+      "duration": 0.5,
+      "loop": true,
+      "note": "CrouchIdle aprovado com pose de mira do fuzil",
+      "rbxmx": "Fuzil_Mira_Agachado_Reuso.rbxmx",
+      "project": "Fuzil_Mira_Agachado_Reuso.r6flip.json"
+    },
+    {
+      "name": "Sub_Mira_Andando_Reuso",
+      "group": "Submetralhadora",
+      "frames": 40,
+      "duration": 0.667,
+      "loop": true,
+      "note": "Walk aprovado com braços e objetos do projeto existente",
+      "rbxmx": "Sub_Mira_Andando_Reuso.rbxmx",
+      "project": "Sub_Mira_Andando_Reuso.r6flip.json"
+    },
+    {
+      "name": "Sub_Mira_Agachado_Reuso",
+      "group": "Submetralhadora",
+      "frames": 15,
+      "duration": 0.5,
+      "loop": true,
+      "note": "CrouchIdle aprovado, mantendo objetos já existentes",
+      "rbxmx": "Sub_Mira_Agachado_Reuso.rbxmx",
+      "project": "Sub_Mira_Agachado_Reuso.r6flip.json"
+    },
+    {
+      "name": "Sub_Guardar_Inverso",
+      "group": "Submetralhadora",
+      "frames": 60,
+      "duration": 1.067,
+      "loop": false,
+      "note": "Reverso exato do saque que já foi salvo",
+      "rbxmx": "Sub_Guardar_Inverso.rbxmx",
+      "project": "Sub_Guardar_Inverso.r6flip.json"
+    },
+    {
+      "name": "Sub_Recarregar_Sem_Loop",
+      "group": "Submetralhadora",
+      "frames": 181,
+      "duration": 3.167,
+      "loop": false,
+      "note": "Mesmos 181 quadros originais, mas não repete a recarga",
+      "rbxmx": "Sub_Recarregar_Sem_Loop.rbxmx",
+      "project": "Sub_Recarregar_Sem_Loop.r6flip.json"
+    },
+    {
+      "name": "Pistola_Baixar_Mira",
+      "group": "Pistola",
+      "frames": 12,
+      "duration": 0.4,
+      "loop": false,
+      "note": "Versão invertida do levantar a mira já salvo",
+      "rbxmx": "Pistola_Baixar_Mira.rbxmx",
+      "project": "Pistola_Baixar_Mira.r6flip.json"
+    },
+    {
+      "name": "Pistola_Mira_Para_Agachado",
+      "group": "Pistola",
+      "frames": 21,
+      "duration": 0.7,
+      "loop": false,
+      "note": "Mira em pé → mira agachado; modelo Pistola P17 preservado",
+      "rbxmx": "Pistola_Mira_Para_Agachado.rbxmx",
+      "project": "Pistola_Mira_Para_Agachado.r6flip.json"
+    },
+    {
+      "name": "Pistola_Mira_Agachado_Para_EmPe",
+      "group": "Pistola",
+      "frames": 21,
+      "duration": 0.7,
+      "loop": false,
+      "note": "Mira agachado → mira em pé; modelo Pistola P17 preservado",
+      "rbxmx": "Pistola_Mira_Agachado_Para_EmPe.rbxmx",
+      "project": "Pistola_Mira_Agachado_Para_EmPe.r6flip.json"
+    },
+    {
+      "name": "Pistola_Mira_Para_Deitado",
+      "group": "Pistola",
+      "frames": 35,
+      "duration": 1.167,
+      "loop": false,
+      "note": "Mira em pé → agachado → deitado; 1,17 s com Pistola P17",
+      "rbxmx": "Pistola_Mira_Para_Deitado.rbxmx",
+      "project": "Pistola_Mira_Para_Deitado.r6flip.json"
+    },
+    {
+      "name": "Pistola_Mira_Deitado_Para_EmPe",
+      "group": "Pistola",
+      "frames": 35,
+      "duration": 1.167,
+      "loop": false,
+      "note": "Mira deitado → agachado → em pé; sem trocar o modelo",
+      "rbxmx": "Pistola_Mira_Deitado_Para_EmPe.rbxmx",
+      "project": "Pistola_Mira_Deitado_Para_EmPe.r6flip.json"
+    },
+    {
+      "name": "Sub_Posicao_Parada_Para_Recarregar",
+      "group": "Submetralhadora",
+      "frames": 7,
+      "duration": 0.233,
+      "loop": false,
+      "note": "Compatibilização leve de entrada na recarga (poses já praticamente encaixam)",
+      "rbxmx": "Sub_Posicao_Parada_Para_Recarregar.rbxmx",
+      "project": "Sub_Posicao_Parada_Para_Recarregar.r6flip.json"
+    },
+    {
+      "name": "Sub_Recarregar_Para_Parado",
+      "group": "Submetralhadora",
+      "frames": 7,
+      "duration": 0.233,
+      "loop": false,
+      "note": "Compatibilização leve de saída da recarga (poses já praticamente encaixam)",
+      "rbxmx": "Sub_Recarregar_Para_Parado.rbxmx",
+      "project": "Sub_Recarregar_Para_Parado.r6flip.json"
+    }
+  ]
+}

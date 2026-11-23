@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Run",
+    "keyframes": 17,
+    "duration": 0.5333333611488342,
+    "loop": true,
+    "priority": 1,
+    "bytes": 102019
+  },
+  {
+    "name": "Landing",
+    "keyframes": 23,
+    "duration": 0.46666666865348816,
+    "loop": false,
+    "priority": 2,
+    "bytes": 137878
+  },
+  {
+    "name": "Idle",
+    "keyframes": 91,
+    "duration": 3.0,
+    "loop": true,
+    "priority": 2,
+    "bytes": 546356
+  },
+  {
+    "name": "CrouchIdle",
+    "keyframes": 16,
+    "duration": 1.3666666746139526,
+    "loop": true,
+    "priority": 2,
+    "bytes": 71827
+  },
+  {
+    "name": "CrouchWalk",
+    "keyframes": 77,
+    "duration": 1.2666666507720947,
+    "loop": true,
+    "priority": 2,
+    "bytes": 299659
+  },
+  {
+    "name": "Walk",
+    "keyframes": 41,
+    "duration": 0.8666666746139526,
+    "loop": true,
+    "priority": 2,
+    "bytes": 246521
+  },
+  {
+    "name": "Jump",
+    "keyframes": 40,
+    "duration": 0.6499999761581421,
+    "loop": false,
+    "priority": 2,
+    "bytes": 239413
+  },
+  {
+    "name": "Fall",
+    "keyframes": 60,
+    "duration": 0.9833333492279053,
+    "loop": true,
+    "priority": 2,
+    "bytes": 358786
+  }
+]

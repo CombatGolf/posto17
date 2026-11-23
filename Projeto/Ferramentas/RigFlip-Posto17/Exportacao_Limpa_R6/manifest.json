@@ -1,0 +1,614 @@
+{
+  "total_projects": 53,
+  "unique_clips": 47,
+  "entries": [
+    {
+      "project_id": "00jzrwis",
+      "original_name": "Run",
+      "export_name": "P17_Corpo_001",
+      "frames": 16,
+      "fps": 30,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "112s62pd",
+      "original_name": "Pistola_Mira_Deitado",
+      "export_name": "P17_Corpo_002",
+      "frames": 5,
+      "fps": 24,
+      "loop": true,
+      "removed_props": [
+        "Pistola P17"
+      ],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "1k0ogbu3",
+      "original_name": "Idle",
+      "export_name": "P17_Corpo_003",
+      "frames": 90,
+      "fps": 30,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "2y9ax7ob",
+      "original_name": "Pacote_05_Anim_09",
+      "export_name": "P17_Corpo_004",
+      "frames": 120,
+      "fps": 60,
+      "loop": true,
+      "removed_props": [
+        "B",
+        "Handle",
+        "Mag",
+        "S",
+        "SS",
+        "Slide"
+      ],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "3lylwudk",
+      "original_name": "Sub_Mira_Andando_Reuso",
+      "export_name": "P17_Corpo_005",
+      "frames": 40,
+      "fps": 60,
+      "loop": true,
+      "removed_props": [
+        "B",
+        "Handle",
+        "Mag",
+        "S",
+        "SS",
+        "Slide"
+      ],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "3r34wzks",
+      "original_name": "LedgeHang",
+      "export_name": "P17_Corpo_006",
+      "frames": 5,
+      "fps": 12,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "3rdl4jkz",
+      "original_name": "submetralhadora sacar",
+      "export_name": "P17_Corpo_007",
+      "frames": 60,
+      "fps": 60,
+      "loop": false,
+      "removed_props": [
+        "B",
+        "Handle",
+        "Mag",
+        "S",
+        "SS",
+        "Slide"
+      ],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "4x0tedxi",
+      "original_name": "Deitado_Parado",
+      "export_name": "P17_Corpo_008",
+      "frames": 24,
+      "fps": 15,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "6wdire5q",
+      "original_name": "Landing",
+      "export_name": "P17_Corpo_009",
+      "frames": 23,
+      "fps": 60,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "72w2pcak",
+      "original_name": "Fuzil_Sacar_Costas_Rascunho",
+      "export_name": "P17_Corpo_010",
+      "frames": 37,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "83gywwic",
+      "original_name": "Vault",
+      "export_name": "P17_Corpo_011",
+      "frames": 20,
+      "fps": 60,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "8mj3ajjr",
+      "original_name": "Climbing_15910005378",
+      "export_name": "P17_Corpo_012",
+      "frames": 5,
+      "fps": 60,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "9hyykreb",
+      "original_name": "CrouchIdle",
+      "export_name": "P17_Corpo_013",
+      "frames": 15,
+      "fps": 30,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "9pxkv7na",
+      "original_name": "submetralhadora atirar",
+      "export_name": "P17_Corpo_014",
+      "frames": 30,
+      "fps": 60,
+      "loop": true,
+      "removed_props": [
+        "B",
+        "Handle",
+        "Mag",
+        "S",
+        "SS",
+        "Slide"
+      ],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "agrrqsxp",
+      "original_name": "CrouchWalk_Corrigido",
+      "export_name": "P17_Corpo_015",
+      "frames": 76,
+      "fps": 60,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "b2nl6l3n",
+      "original_name": "Cobertura_Alta_Direita_Deslocar",
+      "export_name": "P17_Corpo_016",
+      "frames": 28,
+      "fps": 30,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "by3sntbb",
+      "original_name": "Crawl_120357575925653",
+      "export_name": "P17_Corpo_017",
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "cwnw7exp",
+      "original_name": "Fuzil_Mira_Agachado_Reuso",
+      "export_name": "P17_Corpo_018",
+      "frames": 15,
+      "fps": 30,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "d9fls4m8",
+      "original_name": "Sub_Guardar_Inverso",
+      "export_name": "P17_Corpo_019",
+      "frames": 60,
+      "fps": 60,
+      "loop": false,
+      "removed_props": [
+        "B",
+        "Handle",
+        "Mag",
+        "S",
+        "SS",
+        "Slide"
+      ],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "e52v81yf",
+      "original_name": "Cobertura_Parado",
+      "export_name": "P17_Corpo_020",
+      "frames": 16,
+      "fps": 15,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "ebslylho",
+      "original_name": "Sub_Recarregar_Sem_Loop",
+      "export_name": "P17_Corpo_021",
+      "frames": 181,
+      "fps": 60,
+      "loop": false,
+      "removed_props": [
+        "B",
+        "Handle",
+        "Mag",
+        "S",
+        "SS",
+        "Slide"
+      ],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "fmvawbtb",
+      "original_name": "EmPe_Para_Agachado",
+      "export_name": "P17_Corpo_022",
+      "frames": 19,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "fmz3ebab",
+      "original_name": "Sair_Cobertura_Alta_Direita",
+      "export_name": "P17_Corpo_023",
+      "frames": 17,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "frpwqgxu",
+      "original_name": "CrouchWalk",
+      "export_name": "P17_Corpo_024",
+      "frames": 76,
+      "fps": 60,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "hcl6d2mp",
+      "original_name": "Cobertura_Alta_Direita_Parado",
+      "export_name": "P17_Corpo_025",
+      "frames": 24,
+      "fps": 24,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "k2fk1kmq",
+      "original_name": "EmPe_Para_Deitado",
+      "export_name": "P17_Corpo_026",
+      "frames": 34,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "kjs4vqsb",
+      "original_name": "Sub_Posicao_Parada_Para_Recarregar",
+      "export_name": "P17_Corpo_027",
+      "frames": 7,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [
+        "B",
+        "Handle",
+        "Mag",
+        "S",
+        "SS",
+        "Slide"
+      ],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "n6mehz3w",
+      "original_name": "Agachado_Para_Deitado",
+      "export_name": "P17_Corpo_028",
+      "frames": 25,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "o740dhgx",
+      "original_name": "LedgeClimb",
+      "export_name": "P17_Corpo_029",
+      "frames": 21,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "okazful6",
+      "original_name": "fuzil recuo",
+      "export_name": "P17_Corpo_030",
+      "frames": 7,
+      "fps": 15,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "oqu2vgsg",
+      "original_name": "Sair_Cobertura",
+      "export_name": "P17_Corpo_031",
+      "frames": 19,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "oyi4j1qm",
+      "original_name": "Fuzil_Guardar_Costas_Rascunho",
+      "export_name": "P17_Corpo_032",
+      "frames": 37,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "pcngqh37",
+      "original_name": "LedgeClimb",
+      "export_name": "P17_Corpo_033",
+      "frames": 21,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": "P17_Corpo_029"
+    },
+    {
+      "project_id": "pgqruwow",
+      "original_name": "Entrar_Cobertura_Alta_Direita",
+      "export_name": "P17_Corpo_034",
+      "frames": 17,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "q3brdvjw",
+      "original_name": "Sub_Mira_Agachado_Reuso",
+      "export_name": "P17_Corpo_035",
+      "frames": 15,
+      "fps": 30,
+      "loop": true,
+      "removed_props": [
+        "B",
+        "Handle",
+        "Mag",
+        "S",
+        "SS",
+        "Slide"
+      ],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "q57utbeb",
+      "original_name": "Walk",
+      "export_name": "P17_Corpo_036",
+      "frames": 40,
+      "fps": 60,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "qs307gjd",
+      "original_name": "fuzil recarregar",
+      "export_name": "P17_Corpo_037",
+      "frames": 25,
+      "fps": 15,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "rv7sqyej",
+      "original_name": "Pistola_Recarregar",
+      "export_name": "P17_Corpo_038",
+      "frames": 39,
+      "fps": 60,
+      "loop": false,
+      "removed_props": [
+        "Pistol"
+      ],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "s4y7shku",
+      "original_name": "submetralhadora recarregar",
+      "export_name": "P17_Corpo_039",
+      "frames": 181,
+      "fps": 60,
+      "loop": true,
+      "removed_props": [
+        "B",
+        "Handle",
+        "Mag",
+        "S",
+        "SS",
+        "Slide"
+      ],
+      "duplicate_of": "P17_Corpo_021"
+    },
+    {
+      "project_id": "ta0wa5ye",
+      "original_name": "Fuzil_Mira_Andando_Reuso",
+      "export_name": "P17_Corpo_040",
+      "frames": 40,
+      "fps": 60,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "tegb2k8a",
+      "original_name": "CrouchWalk",
+      "export_name": "P17_Corpo_041",
+      "frames": 76,
+      "fps": 60,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": "P17_Corpo_024"
+    },
+    {
+      "project_id": "tvl17lu6",
+      "original_name": "Deitado_Para_EmPe",
+      "export_name": "P17_Corpo_042",
+      "frames": 37,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "uwofvpqy",
+      "original_name": "fuzil mirar",
+      "export_name": "P17_Corpo_043",
+      "frames": 5,
+      "fps": 6,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "vizf18n6",
+      "original_name": "Fall",
+      "export_name": "P17_Corpo_044",
+      "frames": 59,
+      "fps": 60,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "vodzfxom",
+      "original_name": "Jump",
+      "export_name": "P17_Corpo_045",
+      "frames": 10,
+      "fps": 60,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "vv64tbna",
+      "original_name": "fuzil inspecionar",
+      "export_name": "P17_Corpo_046",
+      "frames": 13,
+      "fps": 12,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "wlupn2ua",
+      "original_name": "Deitado_Para_Agachado",
+      "export_name": "P17_Corpo_047",
+      "frames": 28,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "wzb0zc5z",
+      "original_name": "Sub_Recarregar_Para_Parado",
+      "export_name": "P17_Corpo_048",
+      "frames": 1,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [
+        "B",
+        "Handle",
+        "Mag",
+        "S",
+        "SS",
+        "Slide"
+      ],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "x26l3ukd",
+      "original_name": "Cobertura_Alta_Direita_Parado",
+      "export_name": "P17_Corpo_049",
+      "frames": 24,
+      "fps": 24,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": "P17_Corpo_025"
+    },
+    {
+      "project_id": "y9ena41b",
+      "original_name": "Climbing_15910005378",
+      "export_name": "P17_Corpo_050",
+      "frames": 5,
+      "fps": 60,
+      "loop": true,
+      "removed_props": [],
+      "duplicate_of": "P17_Corpo_012"
+    },
+    {
+      "project_id": "yrba2mcg",
+      "original_name": "Pistola_Mira_Agachado",
+      "export_name": "P17_Corpo_051",
+      "frames": 4,
+      "fps": 24,
+      "loop": true,
+      "removed_props": [
+        "Pistola P17"
+      ],
+      "duplicate_of": null
+    },
+    {
+      "project_id": "ze6dkx08",
+      "original_name": "LedgeClimb",
+      "export_name": "P17_Corpo_052",
+      "frames": 21,
+      "fps": 30,
+      "loop": false,
+      "removed_props": [],
+      "duplicate_of": "P17_Corpo_029"
+    },
+    {
+      "project_id": "zfb7ofbe",
+      "original_name": "Pistola tiro com recuo",
+      "export_name": "P17_Corpo_053",
+      "frames": 4,
+      "fps": 60,
+      "loop": false,
+      "removed_props": [
+        "Pistol"
+      ],
+      "duplicate_of": null
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "packages": [
+    {
+      "package": "Pacote_01",
+      "asset_id": "77202825976064",
+      "embedded_sequences": 4,
+      "external_references": 0,
+      "exported": 4
+    },
+    {
+      "package": "Pacote_02",
+      "asset_id": "13862181489",
+      "embedded_sequences": 9,
+      "external_references": 0,
+      "exported": 9
+    },
+    {
+      "package": "Pacote_03",
+      "asset_id": "132360027052893",
+      "embedded_sequences": 0,
+      "external_references": 75,
+      "exported": 0
+    },
+    {
+      "package": "Pacote_04",
+      "asset_id": "13861978981",
+      "embedded_sequences": 9,
+      "external_references": 0,
+      "exported": 9
+    },
+    {
+      "package": "Pacote_05",
+      "asset_id": "13884860505",
+      "embedded_sequences": 10,
+      "external_references": 0,
+      "exported": 10
+    }
+  ],
+  "animations": [
+    {
+      "id": "Pacote_01_Anim_01",
+      "package": 1,
+      "file": "Pacote_01_Anim_01.rbxmx",
+      "frames": 2,
+      "bytes": 6628
+    },
+    {
+      "id": "Pacote_01_Anim_02",
+      "package": 1,
+      "file": "Pacote_01_Anim_02.rbxmx",
+      "frames": 12,
+      "bytes": 35371
+    },
+    {
+      "id": "Pacote_01_Anim_03",
+      "package": 1,
+      "file": "Pacote_01_Anim_03.rbxmx",
+      "frames": 39,
+      "bytes": 128752
+    },
+    {
+      "id": "Pacote_01_Anim_04",
+      "package": 1,
+      "file": "Pacote_01_Anim_04.rbxmx",
+      "frames": 7,
+      "bytes": 21363
+    },
+    {
+      "id": "Pacote_02_Anim_01",
+      "package": 2,
+      "file": "Pacote_02_Anim_01.rbxmx",
+      "frames": 5,
+      "bytes": 16882
+    },
+    {
+      "id": "Pacote_02_Anim_02",
+      "package": 2,
+      "file": "Pacote_02_Anim_02.rbxmx",
+      "frames": 5,
+      "bytes": 16879
+    },
+    {
+      "id": "Pacote_02_Anim_03",
+      "package": 2,
+      "file": "Pacote_02_Anim_03.rbxmx",
+      "frames": 6,
+      "bytes": 20158
+    },
+    {
+      "id": "Pacote_02_Anim_04",
+      "package": 2,
+      "file": "Pacote_02_Anim_04.rbxmx",
+      "frames": 25,
+      "bytes": 75453
+    },
+    {
+      "id": "Pacote_02_Anim_05",
+      "package": 2,
+      "file": "Pacote_02_Anim_05.rbxmx",
+      "frames": 7,
+      "bytes": 25773
+    },
+    {
+      "id": "Pacote_02_Anim_06",
+      "package": 2,
+      "file": "Pacote_02_Anim_06.rbxmx",
+      "frames": 5,
+      "bytes": 17655
+    },
+    {
+      "id": "Pacote_02_Anim_07",
+      "package": 2,
+      "file": "Pacote_02_Anim_07.rbxmx",
+      "frames": 7,
+      "bytes": 25039
+    },
+    {
+      "id": "Pacote_02_Anim_08",
+      "package": 2,
+      "file": "Pacote_02_Anim_08.rbxmx",
+      "frames": 13,
+      "bytes": 50065
+    },
+    {
+      "id": "Pacote_02_Anim_09",
+      "package": 2,
+      "file": "Pacote_02_Anim_09.rbxmx",
+      "frames": 20,
+      "bytes": 59064
+    },
+    {
+      "id": "Pacote_04_Anim_01",
+      "package": 4,
+      "file": "Pacote_04_Anim_01.rbxmx",
+      "frames": 5,
+      "bytes": 16882
+    },
+    {
+      "id": "Pacote_04_Anim_02",
+      "package": 4,
+      "file": "Pacote_04_Anim_02.rbxmx",
+      "frames": 5,
+      "bytes": 16882
+    },
+    {
+      "id": "Pacote_04_Anim_03",
+      "package": 4,
+      "file": "Pacote_04_Anim_03.rbxmx",
+      "frames": 7,
+      "bytes": 25776
+    },
+    {
+      "id": "Pacote_04_Anim_04",
+      "package": 4,
+      "file": "Pacote_04_Anim_04.rbxmx",
+      "frames": 25,
+      "bytes": 75456
+    },
+    {
+      "id": "Pacote_04_Anim_05",
+      "package": 4,
+      "file": "Pacote_04_Anim_05.rbxmx",
+      "frames": 6,
+      "bytes": 20160
+    },
+    {
+      "id": "Pacote_04_Anim_06",
+      "package": 4,
+      "file": "Pacote_04_Anim_06.rbxmx",
+      "frames": 5,
+      "bytes": 17658
+    },
+    {
+      "id": "Pacote_04_Anim_07",
+      "package": 4,
+      "file": "Pacote_04_Anim_07.rbxmx",
+      "frames": 7,
+      "bytes": 25042
+    },
+    {
+      "id": "Pacote_04_Anim_08",
+      "package": 4,
+      "file": "Pacote_04_Anim_08.rbxmx",
+      "frames": 20,
+      "bytes": 59067
+    },
+    {
+      "id": "Pacote_04_Anim_09",
+      "package": 4,
+      "file": "Pacote_04_Anim_09.rbxmx",
+      "frames": 13,
+      "bytes": 50068
+    },
+    {
+      "id": "Pacote_05_Anim_01",
+      "package": 5,
+      "file": "Pacote_05_Anim_01.rbxmx",
+      "frames": 4,
+      "bytes": 13607
+    },
+    {
+      "id": "Pacote_05_Anim_02",
+      "package": 5,
+      "file": "Pacote_05_Anim_02.rbxmx",
+      "frames": 3,
+      "bytes": 10311
+    },
+    {
+      "id": "Pacote_05_Anim_03",
+      "package": 5,
+      "file": "Pacote_05_Anim_03.rbxmx",
+      "frames": 5,
+      "bytes": 16903
+    },
+    {
+      "id": "Pacote_05_Anim_04",
+      "package": 5,
+      "file": "Pacote_05_Anim_04.rbxmx",
+      "frames": 14,
+      "bytes": 42893
+    },
+    {
+      "id": "Pacote_05_Anim_05",
+      "package": 5,
+      "file": "Pacote_05_Anim_05.rbxmx",
+      "frames": 4,
+      "bytes": 13607
+    },
+    {
+      "id": "Pacote_05_Anim_06",
+      "package": 5,
+      "file": "Pacote_05_Anim_06.rbxmx",
+      "frames": 12,
+      "bytes": 39771
+    },
+    {
+      "id": "Pacote_05_Anim_07",
+      "package": 5,
+      "file": "Pacote_05_Anim_07.rbxmx",
+      "frames": 31,
+      "bytes": 357604
+    },
+    {
+      "id": "Pacote_05_Anim_08",
+      "package": 5,
+      "file": "Pacote_05_Anim_08.rbxmx",
+      "frames": 65,
+      "bytes": 747717
+    },
+    {
+      "id": "Pacote_05_Anim_09",
+      "package": 5,
+      "file": "Pacote_05_Anim_09.rbxmx",
+      "frames": 121,
+      "bytes": 1394905
+    },
+    {
+      "id": "Pacote_05_Anim_10",
+      "package": 5,
+      "file": "Pacote_05_Anim_10.rbxmx",
+      "frames": 191,
+      "bytes": 2203751
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # POSTO 17 — Repositório de Produção
 
-Jogo tático de infiltração para Roblox, inspirado em Metal Gear Solid V (estética low-poly militar).
+Jogo fictício de infiltração para Roblox, inspirado no estilo low-poly de MGSV. **Personagem oficial R6 clássico.**
 Este repositório é o canal oficial de arquivos **e de conversa direta** entre o **gerador de conteúdo (Z.ai)** e o **integrador (ChatGPT)** — os dois têm acesso de leitura e escrita aqui.
 
 ## Fluxo de trabalho
@@ -13,7 +13,7 @@ Este repositório é o canal oficial de arquivos **e de conversa direta** entre 
 ## Estrutura
 | Pasta | Conteúdo | Responsável |
 |---|---|---|
-| `Animacoes/` | 5 animações procedurais da pistola (arquivos independentes) | Z.ai |
+| `Animacoes/` | entregas de animação **R6** do Z.ai (as cinco antigas R15 foram retiradas por solicitação do usuário) | Z.ai |
 | `Equipamentos/` | equipamentos 3D (FAL em espera por decisão) | Z.ai |
 | `Projeto/` | projeto completo exportado pelo ChatGPT (sistemas, mapas, UI) | ChatGPT |
 | `PARA_O_CHATGPT/` | mural de mensagens, ordem de exportação, fluxo e padrões técnicos | Z.ai ↔ ChatGPT |
@@ -27,7 +27,7 @@ Este repositório é o canal oficial de arquivos **e de conversa direta** entre 
 
 ## Status
 - [x] Estrutura do repositório + ORDEM para o ChatGPT
-- [x] 5 animações da pistola (v2, quadro a quadro, calibráveis por rig)
+- [x] aviso da migração R6 e retirada das cinco animações R15 incompatíveis
 - [x] Mural de comunicação Z.ai ↔ ChatGPT (`PARA_O_CHATGPT/MURAL.md`)
-- [ ] Exportação do projeto completo pelo ChatGPT (`Projeto/`)
+- [x] Exportação da base v125 e código completo pelo ChatGPT (`Projeto/`)
 - [ ] FAL — em espera por decisão do usuário

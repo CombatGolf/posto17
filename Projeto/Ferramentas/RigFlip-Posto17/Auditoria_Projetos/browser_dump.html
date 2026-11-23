@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Auditoria local de projetos</title></head><body><pre id="out">PENDING</pre><script>
+(async ()=>{
+ try {
+   const op = indexedDB.open('r6flipbook',2);
+   const db = await new Promise((resolve,reject)=>{op.onsuccess=()=>resolve(op.result);op.onerror=()=>reject(op.error);});
+   const rows = await new Promise((resolve,reject)=>{
+       const t = db.transaction('projects','readonly');
+       const r = t.objectStore('projects').getAll();
+       r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);
+   });
+   const data=rows.map(r=>({id:r.id,name:r.name,updated:r.updated,kind:r.kind,project:JSON.parse(r.data)}));
+   document.getElementById('out').textContent=JSON.stringify({ok:true,projects:data});
+   db.close();
+ } catch(e) {document.getElementById('out').textContent=JSON.stringify({ok:false,error:String(e)});}
+})();
+</script></body></html>

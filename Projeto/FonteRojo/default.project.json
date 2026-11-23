@@ -1,0 +1,58 @@
+{
+  "name": "Posto17",
+  "tree": {
+    "$className": "DataModel",
+    "Workspace": {
+      "$properties": {
+        "StreamingEnabled": true
+      }
+    },
+    "ServerScriptService": {
+      "$path": "src/server"
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/client"
+      },
+      "$properties": {
+        "LoadCharacterAppearance": false
+      },
+      "StarterCharacter": {
+        "$path": "src/assets/Posto17R6StarterCharacter.rbxmx"
+      }
+    },
+    "ReplicatedStorage": {
+      "Posto17Shared": {
+        "$path": "src/shared",
+        "StoreWalk": {
+          "$path": "src/assets/StoreWalk.rbxm"
+        },
+        "StoreBed": {
+          "$path": "src/assets/StoreBed.rbxmx"
+        },
+        "StoreDoor": {
+          "$path": "src/assets/StoreDoor.rbxmx"
+        },
+        "Posto17R6Corpo": {
+          "$path": "src/assets/Posto17R6Corpo.rbxmx"
+        },
+        "Posto17R6Amostras": {
+          "$path": "src/assets/Posto17R6Amostras.rbxmx"
+        },
+        "Posto17R6Preview": {
+          "$path": "src/assets/Posto17R6Preview.rbxmx"
+        }
+      }
+    },
+    "ServerStorage": {
+      "Posto17RobloxWeapons": {
+        "$path": "src/assets/Posto17RobloxWeapons.rbxmx"
+      }
+    },
+    "AssetService": {
+      "$properties": {
+        "AllowInsertFreeAssets": true
+      }
+    }
+  }
+}

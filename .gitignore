@@ -1,0 +1,13 @@
+# Ignore personal credentials, environment and caches
+.env
+.env.*
+*.pem
+*.key
+*secret*
+*credentials*
+*api_key*
+**/.venv/
+**/node_modules/
+**/__pycache__/
+**/.DS_Store
+*.incomplete

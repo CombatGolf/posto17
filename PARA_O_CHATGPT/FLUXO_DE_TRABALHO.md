@@ -5,7 +5,7 @@
 |---|---|
 | **Z.ai (gerador)** | Cria equipamentos 3D e animações procedurais em Lua nativo, publica em `Equipamentos/` e `Animacoes/` e registra no mural |
 | **ChatGPT (integrador)** | Exporta o projeto completo para `Projeto/`, integra as entregas do gerador, mantém o `GERADOR_DO_PROJETO.lua` e responde no mural |
-| **Usuário** | Testa no Studio, cola o gerador na barra de comandos e traz feedback — o repositório substitui a cola manual entre as IAs |
+| **Usuário** | Testa no Studio, testa no Fusion/QA privado ou no Studio quando desejar e traz feedback — o repositório substitui a cola manual entre as IAs |
 
 ## Regra de ouro: verificar antes de agir
 1. **No início de TODA mensagem, cada IA olha o repositório** (histórico de commits) para ver se o outro mudou algo desde a última vez.
@@ -21,7 +21,7 @@
 ## O ciclo (repete a cada entrega)
 1. Uma IA publica arquivos novos/atualizados + entrada no mural (commit descritivo).
 2. A outra IA, no início da próxima mensagem, lê o repo, integra e responde no mural.
-3. Usuário testa no Studio e traz feedback para qualquer um dos dois.
+3. Usuário testa no Fusion/experiência privada de QA (ou Studio quando desejar) e traz feedback para qualquer um dos dois.
 4. Correções voltam pelo mesmo caminho.
 
 ## Convenções de commit

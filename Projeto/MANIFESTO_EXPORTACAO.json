@@ -1,0 +1,356 @@
+{
+  "rig": "R6",
+  "place_id_qa": 119377443515742,
+  "base_version": 125,
+  "scripts": [
+    {
+      "source": "src/server/Ambience.luau",
+      "file": "Projeto/ServerScriptService/Ambience.lua",
+      "studio": "ServerScriptService/Ambience",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/AnimationRange.luau",
+      "file": "Projeto/ServerScriptService/AnimationRange.lua",
+      "studio": "ServerScriptService/AnimationRange",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/Ducts.luau",
+      "file": "Projeto/ServerScriptService/Ducts.lua",
+      "studio": "ServerScriptService/Ducts",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/Facilities.luau",
+      "file": "Projeto/ServerScriptService/Facilities.lua",
+      "studio": "ServerScriptService/Facilities",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/Flashlight.luau",
+      "file": "Projeto/ServerScriptService/Flashlight.lua",
+      "studio": "ServerScriptService/Flashlight",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/GuardOperations.luau",
+      "file": "Projeto/ServerScriptService/GuardOperations.lua",
+      "studio": "ServerScriptService/GuardOperations",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/GuardRagdoll.luau",
+      "file": "Projeto/ServerScriptService/GuardRagdoll.lua",
+      "studio": "ServerScriptService/GuardRagdoll",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/GuardVisuals.luau",
+      "file": "Projeto/ServerScriptService/GuardVisuals.lua",
+      "studio": "ServerScriptService/GuardVisuals",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/P17BlockyOperator.luau",
+      "file": "Projeto/ServerScriptService/P17BlockyOperator.lua",
+      "studio": "ServerScriptService/P17BlockyOperator",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/P17CosmeticModels.server.luau",
+      "file": "Projeto/ServerScriptService/P17CosmeticModels.server.lua",
+      "studio": "ServerScriptService/P17CosmeticModels",
+      "class": "Script"
+    },
+    {
+      "source": "src/server/PistolRules.luau",
+      "file": "Projeto/ServerScriptService/PistolRules.lua",
+      "studio": "ServerScriptService/PistolRules",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/Posto17.server.luau",
+      "file": "Projeto/ServerScriptService/Posto17.server.lua",
+      "studio": "ServerScriptService/Posto17",
+      "class": "Script"
+    },
+    {
+      "source": "src/server/PowerGrid.luau",
+      "file": "Projeto/ServerScriptService/PowerGrid.lua",
+      "studio": "ServerScriptService/PowerGrid",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/Protagonista.server.luau",
+      "file": "Projeto/ServerScriptService/Protagonista.server.lua",
+      "studio": "ServerScriptService/Protagonista",
+      "class": "Script"
+    },
+    {
+      "source": "src/server/Sensors.luau",
+      "file": "Projeto/ServerScriptService/Sensors.lua",
+      "studio": "ServerScriptService/Sensors",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/Settings.luau",
+      "file": "Projeto/ServerScriptService/Settings.lua",
+      "studio": "ServerScriptService/Settings",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/StoreAssets.server.luau",
+      "file": "Projeto/ServerScriptService/StoreAssets.server.lua",
+      "studio": "ServerScriptService/StoreAssets",
+      "class": "Script"
+    },
+    {
+      "source": "src/server/StudioAudit.luau",
+      "file": "Projeto/ServerScriptService/StudioAudit.lua",
+      "studio": "ServerScriptService/StudioAudit",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/TacticalMotion.luau",
+      "file": "Projeto/ServerScriptService/TacticalMotion.lua",
+      "studio": "ServerScriptService/TacticalMotion",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/TestRange.luau",
+      "file": "Projeto/ServerScriptService/TestRange.lua",
+      "studio": "ServerScriptService/TestRange",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/Traversal.server.luau",
+      "file": "Projeto/ServerScriptService/Traversal.server.lua",
+      "studio": "ServerScriptService/Traversal",
+      "class": "Script"
+    },
+    {
+      "source": "src/server/VisualShowcase.luau",
+      "file": "Projeto/ServerScriptService/VisualShowcase.lua",
+      "studio": "ServerScriptService/VisualShowcase",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/server/WorldDetail.luau",
+      "file": "Projeto/ServerScriptService/WorldDetail.lua",
+      "studio": "ServerScriptService/WorldDetail",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/client/Acessos.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/Acessos.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/Acessos",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/AnimacaoIndividual.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/AnimacaoIndividual.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/AnimacaoIndividual",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/AnimationReview.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/AnimationReview.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/AnimationReview",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/AreaDeTestes.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/AreaDeTestes.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/AreaDeTestes",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/ArsenalBench.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/ArsenalBench.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/ArsenalBench",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/client/Audio.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/Audio.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/Audio",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/Cobertura.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/Cobertura.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/Cobertura",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/CrouchLegs.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/CrouchLegs.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/CrouchLegs",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/client/Guia.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/Guia.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/Guia",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/HUD.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/HUD.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/HUD",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/Interacoes.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/Interacoes.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/Interacoes",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/Lanterna.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/Lanterna.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/Lanterna",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/MenuInicial.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/MenuInicial.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/MenuInicial",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/MiniMapa.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/MiniMapa.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/MiniMapa",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/Opcoes.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/Opcoes.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/Opcoes",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/Operacoes.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/Operacoes.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/Operacoes",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/OperatorCamera.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/OperatorCamera.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/OperatorCamera",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/PistolHud.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/PistolHud.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/PistolHud",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/Postura.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/Postura.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/Postura",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/R6Frames.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/R6Frames.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/R6Frames",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/client/TouchLayout.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/TouchLayout.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/TouchLayout",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/Traversal.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/Traversal.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/Traversal",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/VisualShowcase.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/VisualShowcase.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/VisualShowcase",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/client/WorldMotion.client.luau",
+      "file": "Projeto/StarterPlayer/StarterPlayerScripts/WorldMotion.client.lua",
+      "studio": "StarterPlayer/StarterPlayerScripts/WorldMotion",
+      "class": "LocalScript"
+    },
+    {
+      "source": "src/shared/ArsenalCatalog.luau",
+      "file": "Projeto/ReplicatedStorage/Posto17Shared/ArsenalCatalog.lua",
+      "studio": "ReplicatedStorage/Posto17Shared/ArsenalCatalog",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/shared/HudTheme.luau",
+      "file": "Projeto/ReplicatedStorage/Posto17Shared/HudTheme.lua",
+      "studio": "ReplicatedStorage/Posto17Shared/HudTheme",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/shared/PoseLibrary.luau",
+      "file": "Projeto/ReplicatedStorage/Posto17Shared/PoseLibrary.lua",
+      "studio": "ReplicatedStorage/Posto17Shared/PoseLibrary",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/shared/Posto17ModelData.luau",
+      "file": "Projeto/ReplicatedStorage/Posto17Shared/Posto17ModelData.lua",
+      "studio": "ReplicatedStorage/Posto17Shared/Posto17ModelData",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/shared/Posto17Modelos.luau",
+      "file": "Projeto/ReplicatedStorage/Posto17Shared/Posto17Modelos.lua",
+      "studio": "ReplicatedStorage/Posto17Shared/Posto17Modelos",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/shared/Posto17ShowcaseIndex.luau",
+      "file": "Projeto/ReplicatedStorage/Posto17Shared/Posto17ShowcaseIndex.lua",
+      "studio": "ReplicatedStorage/Posto17Shared/Posto17ShowcaseIndex",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/shared/Rules.luau",
+      "file": "Projeto/ReplicatedStorage/Posto17Shared/Rules.lua",
+      "studio": "ReplicatedStorage/Posto17Shared/Rules",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/shared/StoreMotion.luau",
+      "file": "Projeto/ReplicatedStorage/Posto17Shared/StoreMotion.lua",
+      "studio": "ReplicatedStorage/Posto17Shared/StoreMotion",
+      "class": "ModuleScript"
+    },
+    {
+      "source": "src/shared/VisualIdentity.luau",
+      "file": "Projeto/ReplicatedStorage/Posto17Shared/VisualIdentity.lua",
+      "studio": "ReplicatedStorage/Posto17Shared/VisualIdentity",
+      "class": "ModuleScript"
+    }
+  ],
+  "model_files": 185,
+  "rigflip_files": 305,
+  "source_count": 56,
+  "assets": {
+    "Posto17R6StarterCharacter.rbxmx": "StarterPlayer/StarterCharacter/StarterCharacter.rbxmx",
+    "StoreWalk.rbxm": "ReplicatedStorage/Posto17Shared/StoreWalk.rbxm",
+    "StoreBed.rbxmx": "ReplicatedStorage/Posto17Shared/StoreBed.rbxmx",
+    "StoreDoor.rbxmx": "ReplicatedStorage/Posto17Shared/StoreDoor.rbxmx",
+    "Posto17R6Corpo.rbxmx": "ReplicatedStorage/Posto17Shared/Posto17R6Corpo.rbxmx",
+    "Posto17R6Amostras.rbxmx": "ReplicatedStorage/Posto17Shared/Posto17R6Amostras.rbxmx",
+    "Posto17R6Preview.rbxmx": "ReplicatedStorage/Posto17Shared/Posto17R6Preview.rbxmx",
+    "Posto17RobloxWeapons.rbxmx": "ServerStorage/Posto17RobloxWeapons.rbxmx"
+  }
+}
